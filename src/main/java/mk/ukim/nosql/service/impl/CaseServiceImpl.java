@@ -16,17 +16,15 @@ public class CaseServiceImpl implements CaseService {
     }
 
     @Override
-    public boolean saveCase(Case c) {
+    public void saveCase(Case c) {
         redisRepo.saveCase(c);
-        return true;
     }
 
     @Override
-    public boolean saveCaseList(List<Case> cases) {
+    public void saveCaseList(List<Case> cases) {
         for (Case c : cases) {
             saveCase(c);
         }
-        return true;
     }
 
     @Override

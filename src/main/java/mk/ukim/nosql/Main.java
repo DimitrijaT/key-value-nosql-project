@@ -9,19 +9,34 @@ import java.util.List;
 
 public class Main {
 
-    public static void main(String[] args) {
 
-//      CaseService caseService = new CaseServiceImpl(redisRepo);
-
+    public static void redisDb(List<Case> cases) {
         CaseService caseService = AppConfig.getCaseService("redis");
-
-        List<Case> cases = CSVReaderUtil.readCSV("src/main/resources/Case.csv");
 
         caseService.saveCaseList(cases);
 
         Case c = caseService.findById(6000009L);
 
         System.out.println(c);
+    }
+
+    public static void riakDb(List<Case> cases) {
+        CaseService caseService = AppConfig.getCaseService("riak");
+
+        caseService.saveCase(cases.get(0));
+
+        Case c = caseService.findById(1000001L);
+
+        System.out.println(c);
+    }
+
+
+    public static void main(String[] args) {
+
+        List<Case> cases = CSVReaderUtil.readCSV("src/main/resources/Case.csv");
+        assert cases != null;
+
+        riakDb(cases);
 
     }
 }

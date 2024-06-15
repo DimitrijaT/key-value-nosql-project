@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface CaseService {
 
-    boolean saveCase(Case c);
+    void saveCase(Case c);
 
-    boolean saveCaseList(List<Case> cases);
+    void saveCaseList(List<Case> cases);
 
     Case findById(Long id);
 
