@@ -9,15 +9,15 @@ import java.util.List;
 
 public class CaseServiceImpl implements CaseService {
 
-    private final CaseRepository redisRepo;
+    private final CaseRepository caseRepository;
 
     public CaseServiceImpl(CaseRepository redisRepo) {
-        this.redisRepo = redisRepo;
+        this.caseRepository = redisRepo;
     }
 
     @Override
     public void saveCase(Case c) {
-        redisRepo.saveCase(c);
+        caseRepository.saveCase(c);
     }
 
     @Override
@@ -29,7 +29,12 @@ public class CaseServiceImpl implements CaseService {
 
     @Override
     public Case findById(Long id) {
-        return redisRepo.findCase(id);
+        return caseRepository.findCase(id);
+    }
+
+    @Override
+    public List<Case> findAll() {
+        return caseRepository.findAllCases();
     }
 
 

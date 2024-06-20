@@ -12,4 +12,6 @@ public interface CaseService {
 
     Case findById(Long id);
 
+    List<Case> findAll();
+
 }

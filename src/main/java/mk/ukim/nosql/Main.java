@@ -9,34 +9,36 @@ import java.util.List;
 
 public class Main {
 
+    public static void serviceOperations(CaseService caseService, List<Case> cases, String dbType) {
+        long startTime;
 
-    public static void redisDb(List<Case> cases) {
-        CaseService caseService = AppConfig.getCaseService("redis");
-
-        caseService.saveCaseList(cases);
-
-        Case c = caseService.findById(6000009L);
-
-        System.out.println(c);
-    }
-
-    public static void riakDb(List<Case> cases) {
-        CaseService caseService = AppConfig.getCaseService("riak");
-
+        startTime = System.currentTimeMillis();
         caseService.saveCase(cases.get(0));
+        long writeOneDataTime = System.currentTimeMillis() - startTime;
 
-        Case c = caseService.findById(1000001L);
+        startTime = System.currentTimeMillis();
+        caseService.saveCaseList(cases);
+        long writeAllDataTime = System.currentTimeMillis() - startTime;
 
-        System.out.println(c);
+        startTime = System.currentTimeMillis();
+        Case c = caseService.findById(6000009L);
+        long readOneDataTime = System.currentTimeMillis() - startTime;
+
+        startTime = System.currentTimeMillis();
+        List<Case> casesPulled = caseService.findAll();
+        long readAllDataTime = System.currentTimeMillis() - startTime;
+
+        Printer.logPerformance(dbType,writeOneDataTime, writeAllDataTime, readOneDataTime, readAllDataTime, cases.size());
     }
-
 
     public static void main(String[] args) {
-
         List<Case> cases = CSVReaderUtil.readCSV("src/main/resources/Case.csv");
         assert cases != null;
 
-        riakDb(cases);
+        CaseService caseService = AppConfig.getCaseService("redis");
+        serviceOperations(caseService, cases, "redis");
 
+        caseService = AppConfig.getCaseService("riak");
+        serviceOperations(caseService, cases, "riak");
     }
 }

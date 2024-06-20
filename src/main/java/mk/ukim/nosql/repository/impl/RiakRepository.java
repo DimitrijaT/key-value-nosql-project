@@ -8,6 +8,7 @@ import com.basho.riak.client.core.query.Namespace;
 import mk.ukim.nosql.model.Case;
 import mk.ukim.nosql.repository.CaseRepository;
 
+import java.util.List;
 import java.util.Set;
 import java.util.concurrent.ExecutionException;
 
@@ -24,6 +25,7 @@ public class RiakRepository implements CaseRepository {
 
     @Override
     public void saveCase(Case c) {
+        System.out.println(c);
         Location caseLocation = new Location(casesBucket, c.getId().toString());
         StoreValue storeCaseOp = new StoreValue.Builder(c)
                 .withLocation(caseLocation)
@@ -46,6 +48,11 @@ public class RiakRepository implements CaseRepository {
             throw new RuntimeException(e);
         }
         return c;
+    }
+
+    @Override
+    public List<Case> findAllCases() {
+        return null;
     }
 
     @Override

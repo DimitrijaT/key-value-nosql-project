@@ -5,6 +5,9 @@ import mk.ukim.nosql.model.Case;
 import mk.ukim.nosql.repository.CaseRepository;
 import redis.clients.jedis.Jedis;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class RedisRepository implements CaseRepository {
@@ -17,20 +20,49 @@ public class RedisRepository implements CaseRepository {
     }
 
     public void saveCase(Case c) {
+//        saveCaseAsHash(c);
+        saveCaseAsJson(c);
+    }
+
+
+    public void saveCaseAsJson(Case c) {
         String key = "case:" + c.getId();
         String value = gson.toJson(c);
         jedis.set(key, value);
 
+
+        // stores the value as set
         // Add to indexes
         jedis.sadd("province:" + c.getProvince(), key);
         jedis.sadd("city:" + c.getCity(), key);
         jedis.sadd("infection_case:" + c.getInfectionCase(), key);
     }
 
-    public Case findCase(Long id) {
-        String key = "case:" + id;
+    public Case getCaseFromJson(String caseId) {
+        String key = "case:" + caseId;
         String value = jedis.get(key);
         return gson.fromJson(value, Case.class);
+    }
+
+    public Case findCase(Long id) {
+        Case c1 = getCaseFromJson(id.toString());
+//        Case c2 = getCaseFromHash(id.toString());
+
+        return c1;
+    }
+
+    @Override
+    public List<Case> findAllCases() {
+        String cursor = "0";
+        List<Case> cases = new ArrayList<>();
+        // keys is a slow operation
+        Set<String> keys = jedis.keys("case:*");
+        for (String key : keys) {
+            String value = jedis.get(key);
+            cases.add(gson.fromJson(value, Case.class));
+        }
+
+        return cases;
     }
 
     @Override
@@ -50,31 +82,33 @@ public class RedisRepository implements CaseRepository {
 
     @Override
     public void close() {
-        jedis.close();
+        if (jedis != null)
+            jedis.close();
     }
 
 
-//    public void saveByHash(Case c) {
-//        jedis.hset(c.getId().toString(), "province", c.getProvince());
-//        jedis.hset(c.getId().toString(), "city", c.getCity());
-//        jedis.hset(c.getId().toString(), "group", String.valueOf(c.getGroup()));
-//        jedis.hset(c.getId().toString(), "infectionCase", c.getInfectionCase());
-//        jedis.hset(c.getId().toString(), "confirmed", String.valueOf(c.getConfirmed()));
-//        jedis.hset(c.getId().toString(), "latitude", String.valueOf(c.getLatitude()));
-//        jedis.hset(c.getId().toString(), "longitude", String.valueOf(c.getLongitude()));
-//
-//        jedis.close();
-//    }
-//
-//    public Case find(String id) {
-//        Case c = new Case();
-//        String province = jedis.hget(id, "province");
-//        String city = jedis.hget(id, "city");
-//        Boolean group = Boolean.parseBoolean(jedis.hget(id, "group"));
-//        String infectionCase = jedis.hget(id, "infectionCase");
-//        Integer confirmed = Integer.parseInt(jedis.hget(id, "confirmed"));
-//        Double latitude = Double.parseDouble(jedis.hget(id, "latitude"));
-//        Double longitude = Double.parseDouble(jedis.hget(id, "longitude"));
-//        return new Case(Long.parseLong(id), province, city, group, infectionCase, confirmed, latitude, longitude);
-//    }
+    public void saveCaseAsHash(Case c) {
+        String caseId = c.getId().toString();
+        jedis.hset(caseId, "province", c.getProvince());
+        jedis.hset(caseId, "city", c.getCity());
+        jedis.hset(caseId, "group", String.valueOf(c.getGroup()));
+        jedis.hset(caseId, "infectionCase", c.getInfectionCase());
+        jedis.hset(caseId, "confirmed", String.valueOf(c.getConfirmed()));
+        jedis.hset(caseId, "latitude", String.valueOf(c.getLatitude()));
+        jedis.hset(caseId, "longitude", String.valueOf(c.getLongitude()));
+    }
+
+    public Case getCaseFromHash(String caseId) {
+        Map<String, String> fields = jedis.hgetAll(caseId);
+        return new Case(
+                Long.parseLong(caseId),
+                fields.get("province"),
+                fields.get("city"),
+                Boolean.parseBoolean(fields.get("group")),
+                fields.get("infectionCase"),
+                Integer.parseInt(fields.get("confirmed")),
+                Double.parseDouble(fields.get("latitude")),
+                Double.parseDouble(fields.get("longitude"))
+        );
+    }
 }
