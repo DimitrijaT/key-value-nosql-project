@@ -1,0 +1,1001 @@
+case_id,province,city,group,infection_case,confirmed,latitude,longitude
+1,Philippines,Roxas,true,Jay,50,14.6103278,121.0080574
+2,Latvia,Mērsrags,true,Commercial,170,57.330777,23.102146
+3,Ukraine,Voyinka,true,Corscot,135,45.8699,33.99138
+4,Croatia,Novi Vinodolski,false,Brickson Park,156,45.1285255,14.7897992
+5,Portugal,Quinta,false,Troy,195,40.9515138,-8.5904113
+6,Peru,Huasahuasi,true,Muir,192,-11.2648012,-75.6491753
+7,China,Shimen,false,Service,160,29.584292,111.380014
+8,Spain,Lleida,false,Hazelcrest,100,41.6445836,0.587269
+9,Indonesia,Krajan Rowokangkung,false,Boyd,99,-8.2307484,113.2998705
+10,Poland,Małkinia Górna,true,2nd,80,52.6934663,22.0269962
+11,Philippines,Bislig,true,Fieldstone,20,8.1890712,126.3547613
+12,Philippines,Looc,false,South,131,12.261245,121.990929
+13,Bolivia,Coripata,false,West,43,-16.3134305,-67.6036362
+14,Indonesia,Gapluk,false,Clemons,62,-7.2033646,111.6630914
+15,United Kingdom,Linton,true,Maywood,18,54.0542238,-2.0215836
+16,Slovenia,Ruše,true,Memorial,126,46.5399962,15.5073987
+17,Czech Republic,Dolany,true,Marquette,105,49.6498731,17.3224082
+18,Croatia,Ferdinandovac,true,Dakota,53,46.0523136,17.2018057
+19,Poland,Wilga,true,Moland,125,51.8407513,21.4105498
+20,Poland,Książ Wielkopolski,false,Sugar,90,52.0609041,17.239347
+21,China,Dayan,false,Trailsway,66,26.8718026,100.2358502
+22,Croatia,Imotski,true,Division,98,43.4471085,17.2139989
+23,Thailand,Yarang,true,Ridgeway,76,6.6930902,101.3090737
+24,Ivory Coast,Agnibilékrou,true,Dorton,125,7.1302807,-3.2030756
+25,Morocco,Zoumi,true,Waxwing,84,34.8032705,-5.3442408
+26,Czech Republic,Bílovice,false,Bonner,30,49.0996492,17.5496163
+27,Mali,Bla,false,Blue Bill Park,36,12.9549865,-5.7563151
+28,Russia,Udachny,false,Homewood,196,66.407021,112.2977807
+29,Russia,Rostov,true,Bayside,111,57.195623,39.4131527
+30,Philippines,Baugo,false,Longview,186,10.3826093,124.9206233
+31,United States,Milwaukee,false,Stoughton,159,42.3745311,-88.1263369
+32,Peru,Canta,true,Rigney,110,-11.4691392,-76.6232202
+33,Philippines,Angatel,true,Forster,26,15.8137804,120.3404633
+34,Indonesia,Kedungreja,true,Luster,156,-7.5153339,108.7660364
+35,Germany,Kiel,false,David,8,54.3418823,10.1150681
+36,Brazil,São Gonçalo do Sapucaí,true,Golf View,104,-21.8930428,-45.5939292
+37,Russia,Shelopugino,false,Valley Edge,183,51.6455621,117.5825811
+38,Sweden,Kävlinge,true,Lakewood Gardens,112,55.8625501,13.1435643
+39,Israel,Kefar Yona,false,Eliot,138,32.317719,34.933615
+40,Bosnia and Herzegovina,Gostovići,true,Clarendon,85,43.7356628,17.8317085
+41,Sri Lanka,Peliyagoda,false,Sycamore,130,6.964703,79.881693
+42,Brazil,Maracanã,true,Redwing,164,-0.8086425,-47.4882762
+43,Portugal,Pomar,false,Westerfield,131,42.046011,-8.4825685
+44,Netherlands,Nijmegen,false,Sage,179,51.8417492,5.8715134
+45,United States,Chandler,true,Crowley,67,33.3107008,-111.8749872
+46,Ukraine,Staryy Sambor,true,Pepper Wood,149,49.443994,23.0037506
+47,Indonesia,Pasirjaya,false,Arizona,180,-6.1788812,107.5209304
+48,China,Dahe,false,Larry,106,38.135288,114.397004
+49,Kazakhstan,Kostanay,true,Killdeer,99,53.2198089,63.6354232
+50,China,Jishan,false,Gina,112,35.604025,110.983333
+51,Argentina,Zárate,false,Wayridge,172,-34.7264519,-58.6055652
+52,Central African Republic,Kaga Bandoro,true,Pierstorff,71,6.9960368,19.1850317
+53,Indonesia,Hewa,false,Portage,122,-8.5713352,122.6898986
+54,Indonesia,Gedangan,true,Gateway,2,-7.3933814,112.7330892
+55,Niger,Alaghsas,false,Oriole,118,17.0187,8.0168
+56,Norway,Trondheim,false,Buhler,117,63.4251464,10.4677043
+57,United States,Springfield,true,Charing Cross,109,42.1014803,-72.5766759
+58,Chile,Lampa,false,Mandrake,70,-33.2827093,-70.879328
+59,Poland,Widuchowa,false,Acker,166,53.1395216,14.4504726
+60,China,Wang’er,true,Shelley,60,40.1919977,122.1700081
+61,Spain,Cartagena,true,Colorado,104,37.5968793,-1.0346774
+62,Sweden,Luleå,true,Redwing,166,65.5966234,22.118526
+63,Colombia,El Águila,false,Kipling,185,4.9428987,-76.0285737
+64,China,Gucheng,false,Dwight,100,37.347409,115.965874
+65,China,Wuxue Shi,true,Vera,173,29.844107,115.561217
+66,Gambia,Galleh Manda,false,1st,20,13.449097,-14.769285
+67,Peru,Santiago de Chuco,true,Hooker,162,-8.1468836,-78.1721189
+68,China,Wangqinzhuang,false,La Follette,100,39.228905,117.101355
+69,Germany,Berlin,false,Amoth,13,52.5121401,13.414046
+70,China,Yongfa,true,Valley Edge,8,23.364295,116.700277
+71,Philippines,Manaulanan,true,Sutteridge,65,7.0539999,124.6719971
+72,Philippines,Bugo,true,Sachtjen,84,8.5067807,124.759938
+73,Indonesia,Martapura,false,Heffernan,19,-3.411598,114.8452
+74,Russia,Chernyshkovskiy,false,Melody,44,48.3696989,42.1773513
+75,Nigeria,Dankalwa,true,John Wall,86,11.7447935,12.1818557
+76,Russia,Sim,false,Bay,196,54.9896116,57.6874206
+77,Egypt,Madīnat Sittah Uktūbar,false,Rutledge,13,29.9588757,30.9006905
+78,Philippines,Sula,false,Moland,72,13.2415746,123.8621907
+79,Serbia,Gornji Breg,true,Stuart,143,45.8829678,19.9675163
+80,Yemen,Ḩarīb,false,Elka,47,14.92653,45.507141
+81,Russia,Nizhniy Kurkuzhin,true,Saint Paul,88,43.7041519,43.3264539
+82,Philippines,Ferrol,true,Crownhardt,118,12.309606,121.92404
+83,Malaysia,Kuching,false,Havey,83,1.4871144,110.3426018
+84,Venezuela,Seboruco,true,Village Green,18,8.1406054,-72.0705185
+85,Philippines,Tingloy,false,Vera,72,13.6690327,120.8546864
+86,China,Siquanpu,true,Judy,110,30.2638032,102.8054753
+87,China,Hengyang,false,Forest Run,20,26.893368,112.572018
+88,Russia,Novorossiysk,false,Mandrake,186,44.7154014,37.7619669
+89,United States,Young America,true,Towne,70,44.81,-93.92
+90,Philippines,Ilaya,true,Killdeer,164,14.5661645,121.0321655
+91,Mali,Mopti,false,Marquette,36,14.4874284,-4.1974627
+92,China,Huolianpo,true,Northview,11,29.8812968,111.4535119
+93,China,Xiamazhuang,true,Carioca,120,37.233266,122.456824
+94,Russia,Goryachevodskiy,true,Victoria,183,44.028793,43.1146215
+95,China,Hedong,false,Judy,192,39.128291,117.251586
+96,France,Saumur,false,Anthes,76,47.2623398,-0.1393138
+97,China,Dongfanghong,true,David,49,41.1846097,80.3038321
+98,China,Xinjia,true,Prairie Rose,134,42.5246357,87.5395855
+99,Bosnia and Herzegovina,Cazin,false,Oriole,146,44.9690446,15.9431582
+100,Egypt,Kawm Ḩamādah,false,Ohio,60,30.75782,30.69768
+101,Hong Kong,Hong Kong,true,Kensington,144,22.396428,114.109497
+102,Colombia,Linares,false,Morningstar,63,1.350933,-77.52387
+103,Sweden,Västra Frölunda,true,Dryden,151,57.6455018,11.9253004
+104,Indonesia,Argotirto Krajan,true,Oneill,128,-8.2885,112.6884
+105,Czech Republic,Přimda,true,Parkside,184,49.6748894,12.6736722
+106,Ukraine,Kobelyaky,true,Armistice,157,49.1517927,34.1953871
+107,Portugal,Loures,false,Forest Dale,175,38.8424265,-9.1901989
+108,China,Jiangnan,true,Kennedy,12,22.781631,108.273158
+109,Macedonia,Sedlarevo,true,Alpine,31,41.88306,21.1275
+110,Vietnam,Quán Hành,false,3rd,89,18.7853365,105.6418428
+111,Poland,Szczurowa,true,Meadow Valley,107,50.1069802,20.6303821
+112,Canada,Lamont,true,Kensington,98,53.76686,-112.80195
+113,Indonesia,Karangan,false,Randy,196,0.556948,109.374802
+114,Indonesia,Gesikan,true,Pawling,48,-7.7090989,109.6922026
+115,Poland,Trzebinia,true,Spohn,16,53.068264,16.136353
+116,China,Lingxi,true,Hagan,196,29.367984,111.177234
+117,Ethiopia,Āsasa,true,Gerald,181,7.1069627,39.2011716
+118,Croatia,Brnaze,true,Bay,98,43.677427,16.6565678
+119,Mexico,Guadalupe,false,High Crossing,5,25.6775595,-100.2596935
+120,China,Aimin,false,Thompson,44,44.596097,129.591591
+121,Greece,Filiatrá,false,Haas,4,37.1573835,21.5855686
+122,Indonesia,Sofifi,true,Hazelcrest,117,0.7349651,127.5614454
+123,China,Chabu,true,Dapin,94,30.262907,84.475645
+124,Philippines,Malway,true,Hovde,139,14.4776308,121.0328004
+125,Poland,Świlcza,false,Dixon,68,50.0579046,21.897502
+126,Luxembourg,Winseler,false,Lillian,191,49.9672504,5.8900588
+127,Portugal,Póvoa,true,Waywood,167,39.60178,-8.968457
+128,Egypt,Maţāy,true,Bluestem,137,28.4233602,30.734995
+129,Mexico,Lazaro Cardenas,false,Bobwhite,137,17.9567646,-102.1943485
+130,Russia,Mineralnye Vody,false,Nelson,157,44.2452219,43.0880662
+131,Poland,Czarnowąsy,true,Dorton,148,50.6627543,17.9265186
+132,Russia,Ilovlya,true,Morrow,63,49.3268319,44.018505
+133,Philippines,Haguimit,false,Doe Crossing,128,7.0649018,125.7230302
+134,Palestinian Territory,Sīrīs,true,Schlimgen,179,32.328224,35.292369
+135,Russia,Zherdevka,false,Michigan,15,51.84861,41.46056
+136,Russia,Gryazovets,true,Tony,4,58.8144355,40.7334111
+137,Uruguay,Pando,false,Anhalt,16,-34.7117766,-55.963705
+138,Venezuela,Jacura,false,Stoughton,123,11.0736954,-68.9539593
+139,France,Carrières-sur-Seine,false,Charing Cross,39,48.911035,2.16555
+140,Brazil,Arapiraca,true,Nelson,38,-9.755588,-36.6639577
+141,China,Qiaotou,false,Warbler,135,28.168408,120.482198
+142,Greece,Loutráki,true,Prentice,23,37.9759033,22.9774589
+143,Honduras,Copán,false,Shelley,141,14.8497254,-89.1467832
+144,Malta,Kirkop,false,Lakewood,141,35.846212,14.486396
+145,Ukraine,Horlivka,true,Service,87,48.3071,38.029633
+146,Brazil,Jaraguá do Sul,true,Fisk,8,-26.4822209,-49.073477
+147,China,Dandai,true,Laurel,2,46.278448,123.854016
+148,China,Wuqu,false,Stone Corner,46,31.3505924,119.8021001
+149,Spain,Valencia,true,Menomonie,91,39.463861,-0.3689508
+150,Mongolia,Höshigiyn-Ar,true,Novick,187,47.55717,106.96333
+151,Russia,Shkotovo,false,Moland,110,43.3250688,132.3546464
+152,Philippines,Sagana,true,Waxwing,169,15.5700166,121.1472247
+153,Portugal,Venda Nova,true,Dwight,187,38.4784282,-9.1007778
+154,China,Juexi,true,Express,4,29.471039,121.948692
+155,Uruguay,Tarariras,true,Brickson Park,19,-34.2696756,-57.615575
+156,China,Anwen,false,Erie,196,29.04527,120.433275
+157,Bangladesh,Tungi,true,Becker,29,23.8697964,90.4219444
+158,Peru,Carabayllo,true,Jana,185,-11.792902,-76.9873477
+159,Micronesia,Pisaras,false,Redwing,55,8.5703071,150.4189148
+160,Greece,Episkopí,false,Pine View,45,35.3292328,24.3359662
+161,Indonesia,Banjarmasin,true,Lawn,1,-3.3186067,114.5943784
+162,China,Huashi,false,Scoville,15,27.511611,112.726555
+163,Sweden,Borlänge,true,Bluejay,195,60.3068052,15.3893305
+164,Tunisia,Ar Rudayyif,false,South,84,34.3827,8.15549
+165,Greece,Velventós,true,Fair Oaks,5,40.2545476,22.0742782
+166,Brazil,Guararema,false,Walton,103,-23.400962,-46.011014
+167,Russia,Burla,false,Charing Cross,128,53.3347847,78.3407084
+168,China,Yinjiacheng,false,Nevada,52,36.188112,106.951372
+169,Peru,Ferreñafe,false,Russell,48,-6.6382226,-79.7904475
+170,China,Shuidong,true,Esch,57,22.492431,111.075519
+171,China,Jiezi,true,Cherokee,137,30.815101,103.560075
+172,Philippines,Hermosa,false,Badeau,120,14.818398,120.4854364
+173,France,Tarbes,true,Carey,146,43.247343,0.06251
+174,Poland,Ręczno,false,Forest,30,51.2217758,19.877027
+175,South Korea,Koesan,true,Hayes,66,35.907757,127.766922
+176,France,Lens,true,Duke,97,46.280212,-0.4601725
+177,Greece,Argalastí,true,Knutson,105,39.2259226,23.2195437
+178,Cape Verde,Vila de Sal Rei,false,Nova,55,16.183349,-22.9148168
+179,Morocco,Senada,true,Meadow Valley,140,35.0785984,-4.215396
+180,China,Yezhu,false,Lerdahl,35,26.087511,107.924631
+181,Mexico,San Miguel,true,La Follette,144,19.3579802,-99.0806088
+182,South Africa,Vredenburg,true,Kenwood,184,-32.9127799,17.9946667
+183,Portugal,Santo André,false,Schurz,142,38.640106,-9.0560562
+184,Poland,Brodnica,true,Forest Run,136,52.138523,16.8924785
+185,Bosnia and Herzegovina,Velika Kladuša,true,Del Sol,145,45.1838373,15.8065454
+186,United States,Saint Louis,true,Esch,29,38.6160491,-90.2291565
+187,China,Xihe,false,Novick,45,34.014215,105.298756
+188,Costa Rica,Alajuela,false,Onsgard,162,10.0165314,-84.2184331
+189,Luxembourg,Mondorf-les-Bains,false,Surrey,7,49.5054982,6.2761743
+190,Costa Rica,La Cruz,true,Southridge,68,10.0445164,-84.4971588
+191,Indonesia,Rato,true,Ilene,120,-8.655524,119.0052561
+192,Belarus,Lahoysk,false,Mallard,75,54.2042169,27.8532022
+193,Indonesia,Wolofeo,true,Del Sol,97,-8.7334983,121.7508912
+194,Syria,Muḩradah,false,Melvin,24,35.2487361,36.5715924
+195,Poland,Wola Uhruska,true,Spaight,98,51.3217146,23.6261558
+196,Philippines,Cawayan,false,Orin,16,12.0675239,123.7223625
+197,Nigeria,Abua,false,Goodland,49,4.9564022,6.6344177
+198,Russia,Brusyanka,false,Texas,115,53.98492,38.03593
+199,Brazil,Espírito Santo do Pinhal,true,Badeau,172,-22.1859595,-46.7655989
+200,Bosnia and Herzegovina,Cazin,true,Bartillon,32,44.9690446,15.9431582
+201,Indonesia,Sedinginan,false,Farragut,130,1.5594449,101.0146187
+202,China,Shahezi,true,Waywood,145,44.306097,86.080602
+203,Brazil,Aimorés,false,Johnson,13,-19.4959312,-41.0713439
+204,Croatia,Fažana,true,Prentice,103,44.9248529,13.8198739
+205,China,Changlu,false,Vahlen,199,32.26101,118.809786
+206,Sweden,Falkenberg,false,Melody,192,56.9096602,12.4888867
+207,Dominica,Portsmouth,true,David,46,15.5561791,-61.45814
+208,Nigeria,Neni,true,Calypso,94,6.0808532,7.0014657
+209,China,Banqiao,true,Brentwood,120,31.922974,118.663681
+210,China,Boshi,true,Superior,63,30.6514558,104.08491
+211,Nigeria,Iwo,true,Warrior,125,7.6292088,4.1872178
+212,Russia,Dubrovka,false,Rutledge,177,53.6911177,33.5027704
+213,China,Longlisuo,true,Ruskin,54,26.41417,109.10222
+214,Greece,Náousa,true,Coolidge,44,40.6294406,22.0688549
+215,Venezuela,Santa María de Ipire,true,Pawling,10,8.4478637,-65.3807101
+216,Russia,Yur’yev-Pol’skiy,false,Division,133,56.5005833,39.6794042
+217,France,Boé,false,Coleman,169,44.190357,0.63968
+218,Argentina,San Rafael,true,Hagan,92,-34.6143394,-68.3426534
+219,Indonesia,Bombu,false,Arkansas,174,-5.0173504,122.8704925
+220,Uruguay,San Javier,false,Anhalt,133,-32.6626805,-58.1295074
+221,Afghanistan,Sang-e Māshah,true,Bluejay,62,33.1396,67.44046
+222,Greece,Limín Khersonísou,false,Prairie Rose,167,35.32297,25.39275
+223,Portugal,Gandra,true,Continental,2,41.1872522,-8.434873
+224,Portugal,Beja,false,Starling,83,38.0208091,-7.8554287
+225,China,Kuanchuan,false,Duke,197,35.338192,104.198771
+226,Kazakhstan,Dzhetygara,true,Spohn,63,52.2163528,61.2809373
+227,Argentina,El Cuy,false,Boyd,23,-31.3366412,-64.3060567
+228,Bulgaria,Byala Slatina,false,Kingsford,88,43.5066525,23.8635696
+229,United States,Orlando,false,Village,181,28.5417016,-81.2408689
+230,Philippines,Montilla,false,Sutherland,175,8.9438393,125.5403208
+231,Indonesia,Op,true,Ramsey,84,-9.9234974,124.649701
+232,Sweden,Lilla Edet,false,Summerview,81,58.1456847,12.1337569
+233,Russia,Kiyevskoye,false,Bayside,145,43.7071168,44.643763
+234,Czech Republic,Velký Újezd,false,Raven,55,49.5784817,17.4835513
+235,Ivory Coast,Boundiali,false,Dahle,52,9.5183617,-6.482318
+236,France,Villejuif,true,Dawn,4,48.7823921,2.368326
+237,Peru,Lacabamba,true,Graceland,63,-8.2614583,-77.8988897
+238,Mexico,Las Americas,true,Mcbride,173,21.1078535,-101.694732
+239,Poland,Kępno,false,Roth,79,51.2781356,17.9890591
+240,United States,Little Rock,false,Everett,113,34.6741181,-92.3517526
+241,Colombia,Algarrobo,false,Dwight,49,10.2453984,-74.041805
+242,Poland,Sypniewo,false,School,96,53.0155306,21.3375451
+243,Philippines,Malhiao,true,Melby,96,9.8769686,123.3996176
+244,France,Digne-les-Bains,false,Prairie Rose,60,44.0905495,6.2272625
+245,United Kingdom,Stapleford,true,Hanover,150,53.10672,-0.687802
+246,Philippines,Glad,false,Iowa,81,7.1774408,124.5350175
+247,Bangladesh,Tungipāra,true,Melby,42,22.9073374,89.8984508
+248,Philippines,Tarlac City,false,Blaine,46,15.4621386,120.5797508
+249,China,Pulian,true,Tony,72,30.229314,120.643023
+250,Russia,Novoalekseyevskaya,true,Twin Pines,119,44.8238879,40.9170843
+251,Indonesia,Jepuro,true,Corry,85,-6.7282418,111.1447759
+252,Portugal,Azeitão,true,Blue Bill Park,29,38.5194,-9.0138
+253,China,Xingang,false,Green Ridge,179,39.0063718,117.6852235
+254,Indonesia,Rato,false,Leroy,188,-8.655524,119.0052561
+255,China,Xiyuan,true,Thierer,72,30.5859716,114.2689545
+256,Philippines,Llanera,true,Fair Oaks,9,15.6662632,121.0126662
+257,Tonga,Pangai,false,Dixon,66,-19.811431,-174.3502613
+258,Indonesia,Armopa,false,Steensland,160,-2.2875948,139.6044141
+259,Nigeria,Gwandu,true,Bashford,80,12.4985661,4.6424521
+260,Venezuela,Clarines,false,Pennsylvania,144,9.9399061,-65.1610557
+261,Brazil,Luziânia,false,Gina,7,-16.2513167,-47.952747
+262,Indonesia,Sukasada,true,Randy,5,-8.1928129,115.1177654
+263,Portugal,Cruz,false,Fulton,21,40.76191,-7.7532796
+264,China,Shuiquan,true,Village,42,35.640089,103.766427
+265,China,Yongping,true,Prairieview,179,25.464681,99.541236
+266,China,Heshi,true,Kedzie,51,24.3482735,116.6988851
+267,Peru,Longar,true,Mitchell,94,-6.3870559,-77.5461785
+268,Norway,Oslo,true,Farwell,94,59.9374398,10.7160051
+269,Macedonia,Kamenjane,true,Stone Corner,70,41.9432941,20.9481376
+270,Indonesia,Hokor,false,Lien,70,-8.727652,122.2483726
+271,Indonesia,Banjar Madangan Kaja,true,Briar Crest,141,-8.475,115.3238
+272,Philippines,Mindupok,true,Eastlawn,121,6.0825,124.4327774
+273,China,Touzao,true,Trailsway,38,32.888994,120.555917
+274,China,Golug,false,Evergreen,181,30.823526,91.622728
+275,China,Mingshan,true,Tony,63,30.069954,103.109184
+276,Venezuela,Tucaní,true,Warbler,99,8.9679001,-71.2740573
+277,Czech Republic,Podolí,false,Daystar,169,49.430258,17.8571512
+278,Brazil,Brejo da Madre de Deus,true,Maple Wood,163,-8.1405443,-36.371496
+279,United States,Denver,true,Merry,121,39.790486,-104.9000469
+280,China,Meixi,true,Jackson,60,24.265926,116.081656
+281,Costa Rica,San José,false,East,94,9.9165452,-84.1014639
+282,Ukraine,Boyany,true,Elka,115,48.269924,26.1261538
+283,China,Huayuan,true,Lakewood Gardens,132,28.572029,109.482078
+284,Cuba,Bolondrón,false,Shasta,195,22.7627589,-81.4471254
+285,China,Laocheng,false,Bartillon,131,34.683646,112.469023
+286,China,Ya’ngan,true,Namekagon,186,31.83889,94.43722
+287,Indonesia,Ajung,false,Morrow,51,-8.2359916,113.6561725
+288,Indonesia,Gedangan,false,Crowley,2,-7.3933814,112.7330892
+289,China,Maliang,true,Vidon,41,26.27436,106.586543
+290,Tanzania,Mvomero,true,Green Ridge,141,-6.235617,38.693748
+291,France,Boulogne-sur-Mer,true,Londonderry,130,50.7308185,1.5948224
+292,Philippines,Gocoton,false,Glacier Hill,129,7.15611,124.69111
+293,Indonesia,Kelodan,false,Anhalt,175,-8.6283422,115.2580854
+294,Bulgaria,Gotse Delchev,false,Kinsman,191,41.5728211,23.7282719
+295,China,Lujing Zhen,true,Sauthoff,168,34.319658,104.562412
+296,Myanmar,Syriam,true,Caliangt,100,16.7587537,96.2482149
+297,Ukraine,Ozerne,false,Roth,52,50.1801755,28.7362455
+298,Sweden,Lidköping,false,Westend,145,58.5033171,13.1611762
+299,Argentina,Aranguren,false,Cambridge,25,-34.6261642,-58.4754013
+300,Indonesia,Banjar Desa,true,Parkside,181,-3.3200228,114.9991464
+301,Poland,Głuchów,true,Sunbrook,50,51.8123584,20.065421
+302,Peru,Huasahuasi,false,Crowley,135,-11.2648012,-75.6491753
+303,China,Xike,true,Meadow Valley,126,31.228026,121.454211
+304,Indonesia,Sumenep,true,Toban,120,-6.9253999,113.9060624
+305,China,Zhangjiapan,true,Lakewood,185,31.875572,120.556005
+306,Nigeria,Nkpor,true,Kennedy,62,6.1462401,6.8297403
+307,Kazakhstan,Georgīevka,false,Sugar,86,52.7572749,78.2041704
+308,Indonesia,Tanjung Palas,true,Eastlawn,71,2.8426922,117.2911248
+309,Russia,Novonukutskiy,true,Carioca,46,53.7002,102.7117
+310,Laos,Không,true,Derek,20,14.1175166,105.8547173
+311,China,Tongqiao,false,Carioca,168,23.035191,114.300299
+312,Serbia,Paraćin,false,Nobel,168,43.858616,21.403911
+313,Uganda,Napak,true,Tennessee,166,2.3629945,34.2421597
+314,Egypt,Diyarb Najm,true,Claremont,71,30.7532224,31.442761
+315,China,Malichang,true,Pearson,1,28.429025,109.500848
+316,Japan,Shiki,true,Marcy,84,32.5126481,130.0510793
+317,Czech Republic,Malonty,true,Badeau,163,48.6768262,14.5775257
+318,Guadeloupe,Jarry,true,Cherokee,94,16.2359,-61.558
+319,China,Ya’ergenchu,false,Truax,196,47.74603,122.60809
+320,Comoros,Patsi,false,Straubel,68,-12.1584708,44.4364706
+321,Japan,Chichibu,true,Derek,26,35.9528417,139.0791865
+322,Russia,Batagay-Alyta,true,Randy,133,67.792809,130.4017789
+323,Poland,Gniechowice,false,Quincy,72,50.98804,16.83363
+324,China,Poxin,false,Brentwood,62,21.630384,111.000373
+325,Indonesia,Cipanas,false,Carioca,159,-6.7131574,107.0185123
+326,Portugal,Lagoa,true,Roth,95,37.7451046,-25.5720746
+327,China,Ya’erya,true,Hermina,79,43.1043447,-88.0162724
+328,Cuba,Baraguá,false,Mitchell,170,21.6936233,-78.6313624
+329,Vietnam,Thị Trấn Na Sầm,false,Ilene,4,22.0557244,106.615868
+330,Greece,Kálamos,true,Dwight,112,38.6218706,20.9089378
+331,Colombia,Medellín,true,Leroy,123,6.3833462,-75.5858886
+332,Poland,Mosina,false,Sherman,143,52.2454069,16.8470545
+333,Indonesia,Bucu Lor,true,Buhler,12,-6.5397069,110.8463512
+334,Indonesia,Gontar,true,Grim,194,-8.5011336,116.9646378
+335,Bulgaria,Belene,true,Kenwood,153,43.6445087,25.1246359
+336,China,Xincun,false,Eagan,176,18.412445,109.971328
+337,Portugal,Oliveirinha,true,Utah,85,40.60624,-8.5926997
+338,Indonesia,Daleman,false,Delaware,145,-7.7276103,110.8582722
+339,Malaysia,Kuala Terengganu,false,Starling,3,5.329576,103.1369108
+340,Thailand,Khemarat,true,Jenna,185,16.0481202,105.1375908
+341,Russia,Urus-Martan,false,Buhler,12,43.1298714,45.5357156
+342,Indonesia,Tanagara,true,Tennessee,106,-6.2683218,106.1081103
+343,China,Hongguang,true,Northport,43,32.2009532,119.4314373
+344,Sierra Leone,Kabala,true,Calypso,27,9.5844123,-11.5589105
+345,Poland,Bobolice,true,Waubesa,40,53.95494,16.5876701
+346,Indonesia,Palamadu,false,Maple Wood,16,-10.0396,120.754
+347,Syria,Jubb Ramlah,false,Hollow Ridge,52,35.2075821,36.4229074
+348,Indonesia,Telengsari,false,Michigan,103,-8.1814,113.6917
+349,Poland,Sosnówka,false,Kenwood,165,50.8177069,15.7230035
+350,United States,Los Angeles,false,Almo,191,33.9930471,-118.153228
+351,Syria,Kafr Nubl,true,Farragut,167,35.6139047,36.5607888
+352,Togo,Badou,true,Troy,5,7.5866041,0.6085749
+353,Poland,Żółkiewka,true,1st,70,50.909807,22.8346659
+354,Brazil,São Mateus do Sul,true,Mccormick,115,-25.8681839,-50.3842316
+355,Russia,Dal’neye Konstantinovo,false,Graedel,191,55.8071267,44.086347
+356,China,Haokou,false,Vidon,108,30.378737,112.649998
+357,Vietnam,Yên Bái,false,Ilene,16,21.6837923,104.4551361
+358,Bosnia and Herzegovina,Bila,false,Killdeer,38,43.7764262,16.9261199
+359,Colombia,Sáchica,true,Continental,10,5.583059,-73.542575
+360,China,Bozhou,true,Spenser,156,33.844582,115.778676
+361,North Korea,Hoeyang,false,Coleman,197,38.7150205,127.6015031
+362,Jordan,Al Mazār,true,Carioca,70,31.067952,35.6955945
+363,Brazil,Itabuna,true,Brentwood,65,-14.7918149,-39.284293
+364,Russia,Vostochnyy,true,8th,198,55.7558852,37.8775383
+365,Indonesia,Sumberjati,false,Hollow Ridge,115,-8.1830575,113.9358031
+366,China,Jiezi,true,Clemons,39,30.815101,103.560075
+367,Poland,Duszniki-Zdrój,true,Oakridge,15,50.404284,16.3904406
+368,Indonesia,Hane,true,Kennedy,155,-9.9275387,124.2254855
+369,Colombia,Sincé,false,Clove,192,9.2633053,-75.1927805
+370,Poland,Miechów Charsznica,true,Elgar,51,50.409026,19.932785
+371,Pakistan,New Mīrpur,false,Donald,178,25.4105868,68.418057
+372,Albania,Korçë,true,Logan,93,40.6140785,20.7778071
+373,Philippines,Carigara,false,Spaight,56,11.3008218,124.6904308
+374,Sweden,Helsingborg,false,Susan,140,56.0212332,12.7210712
+375,Serbia,Požarevac,true,Moose,0,44.6208353,21.1842054
+376,China,Daruoyan,true,7th,1,28.297306,120.632491
+377,United States,Toledo,false,Basil,155,41.6775685,-83.5629746
+378,Macao,Macau,true,Prairie Rose,104,22.198745,113.543873
+379,Argentina,Añatuya,false,Fair Oaks,156,-27.7828418,-64.2837225
+380,Philippines,Paitan,false,Londonderry,31,16.084073,120.026896
+381,Japan,Hiroshima-shi,true,Crowley,104,34.4045029,132.5485088
+382,Portugal,Luso,false,Sachtjen,98,40.3853464,-8.380125
+383,Comoros,Harembo,false,Del Mar,50,-12.1504727,44.4977855
+384,China,Fengyuan,false,Susan,46,22.333918,114.153378
+385,Russia,Kholbon,true,New Castle,171,51.88333,116.25
+386,Czech Republic,Nelahozeves,false,Oriole,86,50.2614833,14.2988193
+387,Tajikistan,Gharavŭtí,false,Forest Run,173,37.56702,68.44668
+388,China,Guohe,false,Dennis,14,28.94074,113.447431
+389,Indonesia,Hane,true,Melvin,168,-9.9275387,124.2254855
+390,Bulgaria,Gulyantsi,false,Northview,68,43.5370504,24.7458579
+391,Nigeria,Konkwesso,false,Grim,20,10.8476607,4.0963821
+392,Brazil,Vazante,true,Iowa,133,-17.7050221,-46.7478493
+393,China,Niaojin,true,Derek,189,39.3433574,117.3616476
+394,China,Dingqiao,false,Annamark,87,30.350192,120.222909
+395,Poland,Wleń,true,Summit,45,51.0176058,15.677587
+396,Portugal,Biscoitos,false,Stuart,185,38.6152027,-28.0339781
+397,China,Jinta,false,Katie,77,39.983599,98.90327
+398,China,Xinzhai,false,Hallows,174,36.809895,116.428916
+399,Indonesia,Bamban,false,Pleasure,83,-6.791629,111.5140386
+400,Indonesia,Bucu Kidul,false,Jackson,85,-6.5397069,110.8463512
+401,Yemen,Suḩayl Shibām,false,School,170,15.91448,48.63864
+402,China,Zhulan,true,Michigan,4,25.627549,115.717179
+403,Indonesia,Tempel,false,Independence,58,-7.6646951,110.3189662
+404,Spain,Murcia,false,Independence,63,37.970285,-1.1424989
+405,China,Loujiadian,false,Larry,11,42.060385,120.665667
+406,China,Honglai,true,Kings,5,23.1446758,113.2532221
+407,Ecuador,Naranjito,true,Hallows,147,-2.176347,-79.4366324
+408,Indonesia,Sendangagung,true,Moose,117,-7.7280457,110.2325862
+409,China,Xundian,false,Sachs,35,25.558201,103.256615
+410,China,Wangchuanchang,true,Laurel,7,39.159945,117.229277
+411,Japan,Itoman,true,Del Sol,160,26.1288392,127.6681281
+412,Bulgaria,Sitovo,true,Morningstar,120,43.5687705,27.8342003
+413,Mexico,Vicente Guerrero,false,Summit,13,32.4865436,-116.8822919
+414,Philippines,Bayombong,false,Kensington,197,16.487885,121.159718
+415,Yemen,Burūm,false,Ruskin,51,14.3631814,48.9820259
+416,Brazil,Flores da Cunha,true,Corry,161,-29.0303854,-51.2003761
+417,Bosnia and Herzegovina,Hadžići,true,Sycamore,96,43.8227415,18.2051201
+418,Argentina,Las Higueras,false,Morrow,175,-37.9361202,-57.5552203
+419,Iran,Qarah Ẕīā’ od Dīn,false,Moose,145,38.8884333,45.0304001
+420,Colombia,Acandí,false,Loeprich,78,8.3412493,-77.2175223
+421,Japan,Tendō,true,Larry,112,38.3559764,140.3748668
+422,Honduras,Yaruchel,false,Nelson,58,14.53333,-88.81667
+423,United States,Savannah,true,Pepper Wood,159,42.6862558,-82.7625747
+424,China,Xuanzhou,false,Carpenter,15,30.946249,118.756589
+425,Chile,Diego de Almagro,false,Dakota,102,-26.3902488,-70.0475302
+426,France,Paris 07,true,Oak Valley,111,43.4945737,5.8978018
+427,Russia,Urkarakh,false,Melvin,38,42.1608572,47.6332811
+428,Peru,Echarate,true,Badeau,148,-12.73574,-72.614288
+429,Russia,Nesterovskaya,false,Kinsman,6,43.2374865,45.0503473
+430,China,Liaoyang,true,Glacier Hill,114,41.267244,123.236944
+431,China,Huanggangshan,false,Vera,179,27.8608333,117.7841666
+432,Philippines,Pagangan,false,Porter,193,7.1889377,124.6303406
+433,Bahrain,Madīnat Ḩamad,true,Fairview,178,26.1256441,50.4980362
+434,Brazil,Campo Grande,true,Grasskamp,172,-5.8913185,-37.3399768
+435,Brazil,Trindade,true,Ohio,105,-7.740099,-40.2884386
+436,China,Qintong,false,Glacier Hill,174,32.64218,120.083139
+437,Portugal,Gouveia,false,Golf Course,107,40.4918264,-7.5954135
+438,Mongolia,Darhan,true,Laurel,135,49.4648434,105.9745919
+439,Vietnam,Đưc Trọng,true,Duke,72,11.641927,108.3102916
+440,Indonesia,Pedamaran,true,Orin,56,-3.4206623,104.9856176
+441,Russia,Kovylkino,false,Rigney,22,53.9762845,43.8688442
+442,Portugal,Cardal,false,Meadow Ridge,101,39.4670766,-8.4504292
+443,Thailand,Tamot,false,Bartillon,165,7.2621533,100.0135929
+444,Indonesia,Doro Oo,false,Hovde,167,-8.6885822,118.7678981
+445,China,Yong’an,false,Mitchell,139,25.941937,117.365052
+446,China,Yuxin,false,Ohio,189,30.66974,120.79411
+447,Germany,Münster,true,Basil,170,51.9601912,7.5468477
+448,United States,Houston,true,Cottonwood,12,29.82,-95.29
+449,United States,Salt Lake City,true,Sheridan,47,40.6999925,-112.0118669
+450,Portugal,Várzea,false,Roth,54,41.5193418,-8.5747445
+451,Indonesia,Banjar Anyar,true,Kinsman,64,-8.5361861,115.1444487
+452,China,Jimusa’er,true,Lake View,131,43.9912932,89.1806674
+453,Philippines,Dadus,false,Golf View,185,7.0575,124.32167
+454,Indonesia,Krajan Winong,true,Mesta,137,-7.9110809,111.4253892
+455,United States,Austin,true,Forest Dale,160,30.181965,-97.9701846
+456,Croatia,Nuštar,false,Fair Oaks,149,45.3098715,18.8818902
+457,Bahamas,Andros Town,false,Ohio,189,24.7048435,-77.7852575
+458,China,Xinhe,true,Waubesa,183,37.520481,115.251124
+459,Russia,Pryazha,false,Del Sol,69,61.6972353,33.6201069
+460,Egypt,Kousa,false,Sutherland,157,25.9119375,32.7632609
+461,Indonesia,Tanjungbalai,false,Northfield,145,2.9662346,99.7985457
+462,Poland,Bolszewo,false,Myrtle,85,54.6164547,18.1757954
+463,Poland,Kaczory,true,Cambridge,130,53.0905078,16.9015317
+464,Philippines,Magsaysay,true,Florence,162,14.6031411,121.0959448
+465,Brazil,Igarapé,true,7th,86,-20.0783278,-44.301421
+466,Ukraine,Shakhtars’k,false,Onsgard,33,48.0486753,38.45053
+467,France,Nice,false,Emmet,37,43.6953508,7.2559678
+468,China,Taozhou,true,Oneill,34,28.65638,121.42076
+469,China,Bailingnao,true,Fallview,192,41.2867601,110.2374621
+470,Ethiopia,Turmi,false,Forest Run,39,4.9640933,36.4878241
+471,Botswana,Janeng,false,Lindbergh,118,-25.416667,25.55
+472,Russia,Novomoskovsk,true,Hanover,3,53.9559626,38.2899306
+473,Russia,Tyrnyauz,false,Monterey,88,43.3911349,42.9174509
+474,Poland,Zator,false,Prairieview,7,49.99621,19.4374699
+475,Indonesia,Baturinggit Kaja,false,Southridge,199,-8.2464,115.5631
+476,Russia,Chupa,false,Buell,98,66.2745295,33.0615453
+477,Russia,Muranovo,false,Norway Maple,13,56.178249,37.902732
+478,Armenia,K’anak’erravan,true,Carioca,193,40.24739,44.53511
+479,Gabon,Bitam,true,Heffernan,122,2.0779721,11.4963935
+480,China,Baoshui,false,Muir,105,30.513598,110.361715
+481,China,Gangmei,true,Springview,47,22.041674,111.756345
+482,Thailand,Bang Krathum,false,Center,162,16.5909145,100.2992789
+483,Russia,Perovo,true,Florence,51,55.751248,37.785402
+484,Honduras,La Estancia,false,Tennessee,76,13.9142931,-87.921223
+485,Botswana,Lobatse,false,Mccormick,40,-25.2076148,25.6805868
+486,Indonesia,Rawawilis,true,Shoshone,142,-6.2078779,106.8333249
+487,Indonesia,Kondangrege,true,Caliangt,185,-7.2201745,107.9119725
+488,Canada,Chase,false,International,144,50.8137495,-119.6934422
+489,Poland,Mysiadło,true,Carioca,164,52.1028471,21.0281495
+490,China,Gangbei,false,Lillian,98,23.11153,109.57224
+491,China,Mingjiu,true,Lotheville,88,28.582106,88.268778
+492,Portugal,Fafe,false,Shelley,163,41.4592281,-8.1841929
+493,China,Qingdao,true,Mifflin,117,36.067108,120.382609
+494,Indonesia,Pacet,true,Service,151,-7.7018672,112.548349
+495,Argentina,El Galpón,false,Goodland,196,-25.4809333,-64.9751483
+496,Finland,Luhanka,true,Center,150,61.7968844,25.7035513
+497,Indonesia,Oesena,true,Porter,130,-10.2168593,123.8020459
+498,Japan,Toride,false,Jana,46,35.8886106,140.0636977
+499,China,Chongkan,true,Maywood,6,29.4315861,106.912251
+500,Iran,Manūjān,false,Quincy,58,27.4475626,57.5051616
+501,Belarus,Bykhaw,false,Marcy,29,53.5180441,30.2402914
+502,Argentina,General José de San Martín,false,Messerschmidt,106,-38.9548478,-68.1030149
+503,Croatia,Bestovje,false,Maple,162,45.8068679,15.8104824
+504,Canada,Thessalon,false,Rowland,8,46.25006,-83.5666
+505,Philippines,Tigbao,true,Londonderry,99,7.8042011,123.3412743
+506,Pakistan,Mīrpur Sakro,true,Montana,57,24.5412145,67.6288048
+507,Sweden,Halmstad,false,Charing Cross,154,56.658933,12.87013
+508,China,Majiang,false,Kingsford,75,26.491105,107.589359
+509,Canada,Langenburg,true,Tennyson,60,50.84999,-101.71763
+510,Thailand,Khao Wong,true,Mallory,92,16.7315698,104.0769024
+511,Russia,Gamovo,true,Summerview,79,57.8745672,56.0925161
+512,Cuba,Bauta,false,Jackson,140,22.9838485,-82.5483422
+513,Canada,White City,false,Glacier Hill,141,50.444953,-104.3624353
+514,Mexico,Guadalupe Victoria,false,Onsgard,109,32.28786,-115.1046436
+515,Australia,Eastern Suburbs Mc,true,Fairfield,174,-38.043127,145.297768
+516,China,Tiandeng,false,Dawn,4,23.081394,107.143432
+517,Russia,Kemlya,false,Brentwood,194,54.6119569,45.9028182
+518,Iraq,Nāḩiyat Hīrān,false,Daystar,102,36.27815,44.49332
+519,Venezuela,Alto Barinas,true,Bashford,84,8.59207,-70.225082
+520,Russia,Krasnomayskiy,true,Hollow Ridge,119,57.6194,34.40988
+521,Botswana,Lokwabe,false,Saint Paul,39,-24.166667,21.833333
+522,Colombia,La Dorada,true,Prentice,125,5.472709,-74.667984
+523,Indonesia,Cibunar,true,Hanover,99,-6.3413734,106.5495683
+524,Russia,Prokop’yevsk,true,Calypso,86,53.8035238,86.8634095
+525,China,Xiadian,true,Esker,156,35.621965,118.725698
+526,Japan,Suibara,false,Bartillon,31,37.8457328,139.2342041
+527,China,Hushan,false,Crescent Oaks,115,34.477861,110.084789
+528,Finland,Nickby,true,Chive,186,60.3763373,25.2708919
+529,Botswana,Moijabana,true,Rusk,11,-22.433333,26.416667
+530,Mexico,Magisterial,true,Summerview,99,32.5468611,-116.9030256
+531,Vietnam,Thành Phố Bà Rịa,true,Parkside,133,10.508928,107.1816257
+532,Colombia,Pital,false,Vahlen,124,2.266733,-75.803848
+533,China,Jinli,false,Linden,196,23.2033136,116.371665
+534,Peru,Huaraz,true,Harbort,1,-9.5261154,-77.5287792
+535,China,Xianshuigu,false,Loomis,10,38.979636,117.395313
+536,Ireland,Drumcondra,false,Lake View,200,51.8885086,-8.445614
+537,Philippines,Socorro,false,Redwing,86,14.4409724,120.9950071
+538,Pakistan,Mātli,false,Moose,106,25.0617484,68.6593883
+539,Albania,Kurbnesh,false,Charing Cross,156,41.7820601,20.0881443
+540,Poland,Gryfów Śląski,false,Farragut,168,51.0350353,15.4122128
+541,China,Xinfeng,false,Magdeline,107,25.386379,114.922922
+542,China,Fuxi,true,Northview,145,29.601192,103.565191
+543,China,Wulan Haye,true,Trailsway,176,41.183785,112.375015
+544,Philippines,Tongouson,false,Carey,139,5.0214,120.1328
+545,Poland,Rakszawa,false,Mosinee,69,50.1661085,22.2214748
+546,Netherlands,Heerlen,false,Thackeray,127,50.9212447,5.9651892
+547,Indonesia,Lukrejo,false,West,163,-7.0206795,112.3963638
+548,China,Xinlong,false,Alpine,21,30.939169,100.311368
+549,Malaysia,Pulau Pinang,false,Hayes,5,5.419092,100.343645
+550,Canada,Cabano,false,Hazelcrest,191,47.68065,-68.8781
+551,Russia,Vydreno,true,Katie,8,51.463,104.6425
+552,China,Xishan,false,Jenna,153,25.038296,102.664376
+553,Indonesia,Batujaran,false,Thierer,69,-6.9144512,107.4970353
+554,Syria,Jablah,true,Anhalt,176,35.368795,35.9206549
+555,Cameroon,Belo,true,Ronald Regan,36,6.1360612,10.2572084
+556,China,Duodaoshi,false,Park Meadow,86,30.958308,112.194147
+557,Yemen,Şuwayr,true,Ludington,15,16.1818,43.60986
+558,Pakistan,Pindi Gheb,false,Express,121,33.237626,72.270844
+559,Colombia,Candelaria,true,Bonner,184,4.5943745,-74.0740729
+560,United States,New Orleans,false,Oriole,136,29.9518573,-90.067925
+561,Lithuania,Trakai,false,Laurel,118,54.6219097,24.9344265
+562,Brazil,Cajazeiras,true,Longview,132,-6.8897071,-38.5612185
+563,Finland,Lovisa,true,Riverside,88,60.4627094,26.2192689
+564,Estonia,Maardu,false,Nova,94,59.4687696,24.9801867
+565,Indonesia,Cangkringan,true,Moland,29,-7.6323091,110.4560006
+566,Botswana,Botlhapatlou,true,Hoard,121,-24.023293,25.4896433
+567,Vietnam,Châu Thành,false,Northview,56,10.4009358,106.22868
+568,Croatia,Čačinci,false,Riverside,52,45.6001616,17.8741663
+569,China,Binhe,false,Fremont,191,39.00366,117.710496
+570,Greece,Níkiti,true,Donald,38,40.2201203,23.6688433
+571,China,Boluo,false,Harper,3,23.17277,114.289528
+572,China,Luojiang,true,Michigan,166,34.620202,112.453926
+573,Yemen,Ku‘aydinah,false,Rockefeller,52,15.8,43.333333
+574,Argentina,Libertador General San Martín,true,Columbus,197,-34.6893836,-58.5801516
+575,Portugal,Paradela,false,Sunnyside,52,41.5776315,-6.2216678
+576,China,Gaoxu,false,Farwell,138,28.303163,120.614287
+577,Poland,Dobra,false,Village,52,53.5659675,15.28454
+578,Philippines,Candoni,false,Melrose,131,9.8287393,122.6384628
+579,Liberia,Buchanan,false,Weeping Birch,82,5.887247,-10.0303723
+580,China,Nanlang,true,Blackbird,11,22.498753,113.53129
+581,Portugal,Charneca da Cotovia,true,Quincy,113,38.4832851,-9.1025502
+582,Japan,Uto,true,Hanover,127,34.687701,133.5775129
+583,Serbia,Kladovo,true,Gerald,127,44.6035552,22.6098737
+584,China,Pingqiao,true,Parkside,56,32.101031,114.125656
+585,Cyprus,Kato Pyrgos,false,Comanche,124,35.1804745,32.6786008
+586,Yemen,Ḩabūr,false,Bay,77,16.05287,43.70929
+587,Philippines,Apitong,false,Hauk,34,14.4931058,121.044773
+588,Brazil,Paracuru,false,Sutherland,96,-3.4142906,-39.0303806
+589,Philippines,Santiago,false,Morningstar,177,14.5672317,121.0298199
+590,Kosovo,Pristina,false,Farragut,110,42.6629138,21.1655028
+591,Russia,Tikhoretsk,true,Lukken,45,45.8551505,40.1202884
+592,Madagascar,Fandriana,true,Vera,196,-20.2384864,47.375551
+593,Bulgaria,Novo Selo,true,Main,117,44.1425014,22.7793914
+594,Colombia,Icononzo,true,Karstens,47,4.0904675,-74.5346103
+595,Vietnam,Minh Long,true,Onsgard,200,14.9659262,108.6888227
+596,China,Zhangjiayuan,true,Carey,70,28.532422,118.592707
+597,Syria,Al Ḩāḑir,false,Ludington,78,35.9928004,37.0507676
+598,Sweden,Växjö,true,Rigney,10,56.8521006,14.8183366
+599,Sweden,Sundsvall,false,Fordem,87,62.390811,17.306927
+600,Botswana,Kanye,true,Clyde Gallagher,109,-24.988061,25.3430203
+601,Venezuela,Umuquena,true,Brentwood,64,8.2673715,-72.0631118
+602,China,Tuoshi,false,Bunker Hill,26,30.727011,112.839027
+603,Greece,Angelochóri,false,Parkside,67,40.4970602,22.8338979
+604,France,Les Sables-d'Olonne,false,Graceland,195,46.4846074,-1.7557702
+605,Ukraine,Mizoch,false,Grasskamp,128,50.4034992,26.141892
+606,Panama,Llano Largo,false,Starling,35,7.9076232,-80.4256976
+607,Sweden,Falun,true,Waxwing,167,60.6065466,15.6257125
+608,Russia,Myshkin,true,Mayer,19,57.7868036,38.4503218
+609,China,Xilinji,false,Lawn,167,52.969667,122.539307
+610,Uruguay,Maldonado,false,Heffernan,42,-34.905408,-54.9501708
+611,Morocco,Arazane,true,Bartillon,12,30.507299,-8.615482
+612,Japan,Muikamachi,true,Kenwood,10,38.2589551,140.3422958
+613,Botswana,Ramotswa,true,Grover,185,-24.8705652,25.8640062
+614,Indonesia,Bondowoso,false,Talmadge,38,-7.9673906,113.9060624
+615,Sweden,Solna,true,Jenna,150,59.3778462,18.0367294
+616,Slovenia,Bilje,true,Daystar,184,45.8899146,13.6263627
+617,Sierra Leone,Zimmi,true,Eagle Crest,141,7.3139328,-11.3062382
+618,Panama,Chame,true,Pond,82,8.5860654,-79.8464804
+619,Portugal,Rana,true,Everett,59,38.6926647,-9.3466983
+620,China,Jindu,false,Mockingbird,10,23.036996,112.515033
+621,China,Baishan,true,Center,174,41.933917,126.422806
+622,Tanzania,Muleba,true,Porter,175,-2.164898,31.5370003
+623,Peru,Huamachuco,false,Harper,40,-7.816461,-78.0452048
+624,Russia,Kabardinka,false,Ridgeview,157,44.6488775,37.9401099
+625,Benin,Savé,false,Sherman,18,8.0335995,2.4851463
+626,Argentina,General Vedia,false,Scoville,198,-34.5446946,-58.486757
+627,China,Duifang,false,Division,26,40.827732,114.884994
+628,France,Montfort-sur-Meu,false,Pearson,117,48.138899,-1.948989
+629,China,Xixiang,false,Truax,78,32.983101,107.766613
+630,Cameroon,Maroua,true,Cherokee,116,10.5925289,14.3210095
+631,Indonesia,Banjar Petak,false,Mallard,41,-8.4507433,115.3219823
+632,China,Longquan,false,Elka,29,28.074649,119.141473
+633,Indonesia,Besuki,true,Myrtle,104,-7.7527791,113.697829
+634,Sweden,Mönsterås,true,Waubesa,17,56.9846069,16.3374996
+635,Russia,Privodino,true,Arkansas,88,61.0816055,46.4952164
+636,Cuba,Minas de Matahambre,true,Merchant,46,22.5835642,-83.9479637
+637,Japan,Yashiro,true,American,9,35.5267333,135.8074728
+638,Philippines,Suay,false,Vahlen,141,7.7085722,122.8673554
+639,Peru,Caballococha,false,Scott,49,-3.9107889,-70.5160813
+640,Argentina,Laprida,true,Bluestem,104,-32.9867567,-60.644128
+641,Afghanistan,Nayak,true,Independence,110,34.7345529,66.9511459
+642,Indonesia,Masjid,true,Katie,94,-6.17017,106.83139
+643,France,Boulogne-Billancourt,true,Dottie,106,48.830394,2.2372823
+644,Philippines,Rosario,false,Loeprich,68,14.5643857,121.1293312
+645,Indonesia,Cabak Satu,false,Petterle,98,-6.2287891,106.6914555
+646,Poland,Przyborów,true,Pierstorff,123,50.0248149,20.6621099
+647,China,Bayan Tuohai,true,Tennyson,2,48.433225,123.220598
+648,France,Saint-Péray,false,Farragut,175,44.9447526,4.8413855
+649,France,Vierzon,true,Sugar,119,47.2265307,2.0598182
+650,Dominican Republic,Baitoa,true,Sunnyside,112,19.309169,-70.6977162
+651,Russia,Saraktash,true,Talmadge,123,51.7920503,56.3442985
+652,Honduras,San Agustín,false,Truax,59,14.8182209,-88.9377949
+653,Cameroon,Kumba,false,Colorado,186,4.6333268,9.4450439
+654,Sweden,Karlskoga,true,Nelson,159,59.3281151,14.5096023
+655,United States,Memphis,true,Waywood,85,35.1002148,-89.8500299
+656,Greece,Psará,true,Oneill,101,38.5619186,25.5799503
+657,Martinique,Fort-de-France,true,Coolidge,106,14.641514,-61.0512822
+658,Philippines,Sergio Osmeña Sr,true,Utah,76,8.3796569,123.4261608
+659,Croatia,Baška Voda,true,Brentwood,88,43.3572645,16.9520477
+660,Indonesia,Banjar Brahmanabukit,true,Beilfuss,123,-8.4399,115.3561
+661,Philippines,Batu,true,Lillian,91,16.4329878,121.1113259
+662,Colombia,Puerto Parra,true,Hoard,181,6.6103028,-73.8889499
+663,Israel,Mazkeret Batya,true,Vera,126,31.853167,34.842421
+664,Russia,Priiskovyy,false,Atwood,120,54.3834709,60.8003422
+665,Ireland,Tralee,false,Cherokee,108,52.2413206,-7.0833118
+666,Poland,Podgórzyn,false,Brown,52,50.8290137,15.6741931
+667,Turkmenistan,Yolöten,true,Colorado,137,37.2944409,62.3682506
+668,Philippines,Tala,true,Bluejay,100,14.6749786,121.0290353
+669,Indonesia,Gunungkendeng,true,Everett,20,-6.669221,106.0463837
+670,Thailand,Phu Luang,false,Lotheville,188,17.0935616,101.6612934
+671,Sweden,Vårby,false,Huxley,95,59.2691081,17.8651957
+672,Czech Republic,Chabařovice,true,Fairfield,181,50.6731869,13.9418552
+673,China,Moyuan,true,Mendota,10,31.559502,120.364428
+674,China,Shouchang,false,Clove,21,29.358966,119.222105
+675,United States,Richmond,true,5th,157,37.54,-77.45
+676,Russia,Krivyanskaya,false,Pawling,64,47.3994896,40.1860046
+677,Philippines,Bankaw,true,Veith,197,14.7035936,121.0493442
+678,Poland,Jakubów,false,Eliot,109,52.2309398,21.6932492
+679,Brazil,Colombo,false,Maywood,150,-25.2929784,-49.2266344
+680,Chad,Ngama,false,Ohio,99,11.7931418,17.1632224
+681,China,Xiadingjia,false,Roth,79,37.540621,120.506155
+682,China,Xiasi,false,Farragut,173,32.280756,105.513062
+683,Bangladesh,Bherāmāra,false,Londonderry,138,24.020975,88.9922341
+684,Azerbaijan,Pirallahı,true,Mandrake,195,40.4746848,50.3334447
+685,Canada,Donnacona,false,Carpenter,92,46.6908888,-71.7146783
+686,Philippines,Manacsac,true,Briar Crest,144,15.5946516,120.7914484
+687,China,Yuecheng,false,Canary,105,29.988244,120.582633
+688,Indonesia,Aikmel,false,Duke,133,-8.5277646,116.5019976
+689,France,Marseille,true,Heath,68,43.298735,5.3825978
+690,Portugal,Vale da Serra,false,Pepper Wood,15,39.5022546,-8.6542956
+691,Portugal,Paderne,false,Petterle,99,37.1764814,-8.201073
+692,Equatorial Guinea,Ncue,false,Oak,45,2.01643,10.47066
+693,China,Jinglongqiao,false,Merrick,178,29.301449,111.101029
+694,Russia,Dubki,false,Heath,39,59.740619,28.4695971
+695,Sweden,Bandhagen,false,Fallview,178,59.2643041,18.0399695
+696,China,Yuhang,false,Corben,89,30.419045,120.299401
+697,New Zealand,Maungatapere,true,Pond,159,-35.7549893,174.2077912
+698,Indonesia,Romba,false,5th,129,-8.9066345,121.3064286
+699,Greece,Kímolos,true,Park Meadow,158,36.8173373,24.5599015
+700,Sweden,Karlskrona,false,Ridgeview,43,56.1688881,15.6354869
+701,Thailand,Seka,true,Graedel,112,13.7768017,100.5593109
+702,Indonesia,Petung,true,Warner,192,-6.968354,112.475502
+703,Indonesia,Cigintung,false,Oriole,73,-6.9620686,108.4854717
+704,Russia,Tolstoy-Yurt,false,Brickson Park,14,43.446712,45.7756846
+705,Indonesia,Gesik,true,Ludington,74,-6.6763886,108.5270231
+706,Turkmenistan,Balkanabat,true,Pearson,157,39.5238734,54.3360001
+707,China,Oubei,false,Sheridan,55,28.040993,120.658812
+708,China,Laiyang,false,Schmedeman,164,36.978941,120.711672
+709,Portugal,Cabrela,false,Surrey,26,38.5994652,-8.4602494
+710,China,Hougaoshizhuang,true,Dixon,25,39.803681,112.073298
+711,Greece,Ágio Pnévma,false,Sycamore,177,41.1009418,23.678736
+712,Poland,Gorzyczki,true,Russell,153,49.94912,18.4033
+713,Russia,Ladushkin,false,Golden Leaf,173,54.5728766,20.1764433
+714,Russia,Novokhovrino,false,Michigan,67,55.86667,37.5
+715,Philippines,Maloco,true,Crowley,90,11.77882,122.145942
+716,United States,Torrance,true,Green,90,33.8101772,-118.3520389
+717,China,Lantian,true,Trailsway,31,34.151624,109.323479
+718,Russia,Chastyye,false,Pearson,184,57.28876,54.97278
+719,Guam,Guam Government House,true,Weeping Birch,82,13.4767279,144.7651497
+720,Cameroon,Tibati,false,Pawling,127,6.470326,12.6187506
+721,Indonesia,Rokoy,false,Stoughton,84,-6.192143,106.8209006
+722,Slovenia,Ljubno ob Savinji,false,Mockingbird,133,46.3443125,14.8335492
+723,Japan,Takanosu,false,Saint Paul,169,37.9984095,140.6381624
+724,Russia,Nizhniy Tagil,false,Lake View,17,57.9093249,60.166299
+725,Croatia,Kašina,true,Dunning,195,45.9113179,16.1242534
+726,Moldova,Comrat,true,8th,197,46.2893452,28.6519897
+727,Zambia,Lusaka,true,Acker,71,-15.3875259,28.3228165
+728,Poland,Jawornik Polski,true,Buell,24,49.8964958,22.2871234
+729,Canada,Gravelbourg,false,Gale,51,49.8756758,-106.5573172
+730,Brazil,Simões Filho,true,Sage,149,-12.8272291,-38.4003431
+731,United States,Atlanta,false,Fisk,148,33.7654607,-84.38709
+732,Indonesia,Banjar Kertasari,true,Doe Crossing,193,-7.3260543,108.3655011
+733,Sweden,Nynäshamn,false,Barby,77,58.9108802,17.9314968
+734,Uganda,Gombe,true,Morning,112,0.4864487,32.4764443
+735,China,Yandang,false,Annamark,3,28.357764,121.143873
+736,France,Saint-Dié-des-Vosges,false,Sundown,172,48.28232,6.942319
+737,Nigeria,Obollo-Afor,true,Carberry,2,6.9152967,7.5138947
+738,Poland,Hornówek,true,Redwing,20,52.2861138,20.8081804
+739,Guatemala,Jocotenango,false,Pierstorff,119,14.577579,-90.73956
+740,China,Sangba,true,Nancy,61,30.0565,94.122434
+741,Argentina,Rojas,true,Bluestem,92,-34.6089515,-58.4464356
+742,Russia,Pokrov,true,Sheridan,176,55.9180886,39.1784374
+743,China,Zhangjiachang,true,Gale,178,40.083782,112.832566
+744,Venezuela,El Valle del Espíritu Santo,true,4th,32,10.9811398,-63.8788287
+745,Russia,Novo-Nikol’skoye,true,Hagan,35,43.8249005,131.9019175
+746,Colombia,Santander de Quilichao,true,Redwing,86,3.01228,-76.484533
+747,Sweden,Hässleholm,false,Dorton,31,56.148382,13.8060697
+748,Brazil,Bebedouro,false,Marcy,38,-20.9400441,-48.4812248
+749,Armenia,Arevashogh,false,Hintze,135,40.852747,44.2741475
+750,China,Ningdun,true,Riverside,156,30.456361,119.117626
+751,Kuwait,Salwá,true,Melby,74,29.2964866,48.079379
+752,Brazil,Matias Olímpio,true,Novick,171,-3.6988282,-42.5901672
+753,Mongolia,Javhlant,true,Helena,154,48.80189,105.924
+754,Russia,Spassk-Dal’niy,false,Heffernan,12,44.5931785,132.7381046
+755,China,Xiaocun,false,Memorial,65,24.745135,100.824707
+756,Philippines,Abut,false,Mosinee,7,18.5286072,120.791828
+757,China,Dingcheng,true,Bellgrove,129,39.928353,116.416357
+758,France,Saint-Étienne,true,Artisan,15,45.4815563,4.3637137
+759,Philippines,Daliciasao,true,Truax,50,9.993407,122.750324
+760,Tajikistan,Ishqoshim,false,Bultman,163,36.7243344,71.6131931
+761,United States,Philadelphia,false,Main,144,40.0397682,-75.145782
+762,Japan,Yuza,false,American Ash,122,39.0483943,139.8738552
+763,Ukraine,Chornukhyne,true,Annamark,168,48.3238703,38.5208692
+764,Thailand,Khon Kaen,false,Ruskin,128,16.4656784,102.7834876
+765,Indonesia,Rainis,false,Golf,55,4.2784597,126.8573186
+766,Indonesia,Singojuruh,true,Ronald Regan,198,-8.3200799,114.2509376
+767,Brazil,Salto de Pirapora,false,Almo,109,-23.6443472,-47.5720968
+768,Pakistan,Sobhādero,false,Doe Crossing,172,27.30459,68.39764
+769,France,Chambray-lès-Tours,false,Shoshone,181,47.3411618,0.723116
+770,Iran,Pīshvā,true,Maple,186,35.3077846,51.7308724
+771,Russia,Belyayevka,false,Barnett,81,57.9901314,56.2090194
+772,Brazil,Patos de Minas,false,Hazelcrest,151,-18.5926206,-46.5203453
+773,France,Orvault,false,Roth,179,47.6258589,-1.8700485
+774,Indonesia,Atarodangwautu,false,Towne,187,-8.1836,123.759
+775,Malta,Tarxien,true,Twin Pines,23,35.8659607,14.5139265
+776,Switzerland,Zürich,false,Kim,23,47.3807562,8.517289
+777,Finland,Loppi,true,Granby,35,60.7207077,24.4417258
+778,Indonesia,Cigadog,false,Hovde,107,-7.3055997,108.0940566
+779,China,Meipu,false,Rutledge,117,45.7718709,126.6701902
+780,Indonesia,Salam,true,Shopko,133,-7.6247732,110.2951364
+781,Thailand,Ban Huai Thalaeng,false,Cottonwood,50,14.9649534,102.6298251
+782,Serbia,Riđica,false,Amoth,34,45.9926615,19.1266138
+783,Honduras,Quebradas,true,Debs,65,14.3770919,-87.1242072
+784,Czech Republic,Smidary,false,Cottonwood,149,50.2914556,15.4772549
+785,Canada,Trois-Rivières,true,Pine View,52,46.34515,-72.5477
+786,Philippines,San Manuel,true,Hoard,142,16.065782,120.666775
+787,Poland,Brodnica,true,Hagan,109,52.138523,16.8924785
+788,France,Mérignac,false,Parkside,131,47.9544744,-2.0532343
+789,Sweden,Uppsala,true,Dwight,15,59.8509005,17.6300093
+790,Indonesia,Banjar Timbrah,false,Karstens,164,-8.4774,115.597
+791,Portugal,Cuba,true,Dawn,199,38.1661758,-7.888224
+792,Poland,Duszniki-Zdrój,true,Charing Cross,12,50.404284,16.3904406
+793,Indonesia,Getung,false,Pearson,198,-7.0807005,112.39108
+794,China,Shiguai,false,Dexter,121,40.672094,110.272565
+795,Armenia,Metsavan,false,Glacier Hill,194,41.2053857,44.2309162
+796,Ukraine,Balakliya,true,Sunfield,50,49.4643925,36.8584805
+797,Poland,Poddębice,true,Packers,150,51.8803457,18.9033376
+798,China,Sanguanzhai,true,Express,56,24.767489,98.699009
+799,Thailand,Phu Luang,false,Sugar,187,17.0935616,101.6612934
+800,United States,Wilkes Barre,true,Cody,25,41.2505888,-75.8520879
+801,Russia,Sernur,true,Sherman,86,56.93333,49.15361
+802,Chad,Biltine,false,Butterfield,107,14.5257818,20.9238397
+803,Albania,Mollas,false,Petterle,136,40.9314367,20.0032794
+804,China,Liugong,true,Mallard,120,24.3154419,109.3656914
+805,Philippines,Sagrada Familia,false,Anderson,71,14.5706006,121.0052221
+806,Japan,Mori,false,Merrick,162,38.1230866,140.0547688
+807,Indonesia,Lewotola,true,Luster,142,-8.2916,122.9193
+808,Indonesia,Srono,true,Meadow Valley,47,-8.399762,114.261299
+809,Azerbaijan,Neftçala,false,Jay,158,39.3881052,49.2413743
+810,Dominican Republic,Laguna Salada,true,Sunnyside,174,19.6478178,-71.0998393
+811,Indonesia,Pakkat,false,American Ash,37,2.160693,98.4403573
+812,Portugal,Ribeira Seca,false,Artisan,193,37.807809,-25.541625
+813,France,Apt,false,Prairieview,90,43.89144,5.381848
+814,China,Baiyang,false,Bartillon,59,34.540852,109.44096
+815,Thailand,Bang Pahan,true,Wayridge,1,14.4612646,100.5577407
+816,China,Fanrong,false,Dorton,29,29.561775,106.568971
+817,Brazil,Águas Formosas,true,Dovetail,97,-17.0806813,-40.9387356
+818,China,Qinshi,true,Sundown,119,33.895566,117.95891
+819,Poland,Bałtów,false,Kipling,56,51.0177556,21.5418795
+820,Brazil,São Paulo,false,Oxford,57,-23.572516,-46.668437
+821,Afghanistan,Āsmār,false,Boyd,152,35.0298547,71.3542319
+822,China,Junchuan,false,Hallows,147,31.648038,113.229941
+823,Philippines,Kinalaglagan,false,Dixon,60,13.966665,121.083337
+824,Syria,Qārah,true,Spenser,181,34.1540161,36.7442377
+825,Philippines,Lañgub,true,Farragut,131,7.1018539,125.5626726
+826,Albania,Konispol,false,Fordem,144,39.6611469,20.1789757
+827,Niger,Tchintabaraden,true,Spohn,3,15.9009759,5.8063797
+828,Portugal,Lamas,false,Oak Valley,149,41.118436,-8.0408995
+829,Tunisia,El Jem,true,Red Cloud,107,35.2923343,10.7041509
+830,China,Dongguang,true,Schiller,196,37.888248,116.537067
+831,Brazil,Bacabal,false,Ruskin,102,-4.2221443,-44.7855844
+832,Vietnam,Trảng Bàng,false,Chive,153,11.0328111,106.3645677
+833,China,Chadi,true,Hintze,173,22.923431,112.732632
+834,China,Shaba,true,Texas,146,31.839141,103.732815
+835,Russia,Lesnoye,false,Forster,144,55.0155118,22.2004824
+836,Indonesia,Ngujung,true,Bultman,25,-7.3058984,111.9149875
+837,Argentina,Chivilcoy,false,Mallory,177,-34.5377407,-58.5521828
+838,China,Hufeng,true,Calypso,42,29.710994,106.118868
+839,Colombia,Sabanalarga,true,Mcguire,200,4.8413815,-72.9899505
+840,Uganda,Adjumani,false,Hudson,11,3.3783808,31.7822278
+841,Costa Rica,San Vicente,true,Bunker Hill,7,10.2838456,-84.3863987
+842,Finland,Himanka,false,Manley,107,64.0615492,23.6542166
+843,China,Beishan,true,Granby,109,28.39895,113.02064
+844,China,Xushangqiao,true,Aberg,53,28.225095,116.549282
+845,Philippines,Catayauan,false,Mifflin,79,18.1590139,121.6539966
+846,China,Hali,true,Hazelcrest,155,44.6441724,-63.6010175
+847,Luxembourg,Helmsange,false,Roth,116,49.6633939,6.1317337
+848,Sweden,Linköping,false,Calypso,155,57.9869523,16.3149736
+849,Poland,Lyski,true,Wayridge,190,50.12514,18.3810394
+850,Zimbabwe,Esigodini,true,Waywood,129,-20.2906811,28.9383082
+851,Argentina,Aluminé,true,Vera,139,-38.9642683,-68.0370766
+852,New Caledonia,Tadine,true,Mallory,61,-21.5447866,167.8854865
+853,Indonesia,Boro,true,Meadow Ridge,102,-8.3698126,118.2702036
+854,Pakistan,Sakrand,false,Towne,39,26.1372068,68.2667265
+855,Egypt,Ziftá,false,Jenifer,151,30.7066802,31.2447709
+856,China,Youzha,true,Kedzie,189,30.673618,118.382379
+857,China,Yiqian,true,Fairfield,144,39.949597,116.474285
+858,Russia,Zheleznodorozhnyy,false,Briar Crest,184,53.437194,41.789046
+859,China,Sikeshu,true,Leroy,55,33.6634952,112.6061178
+860,Indonesia,Jaga,true,Blaine,88,-6.176506,106.8013241
+861,Thailand,Lap Lae,false,Kennedy,50,13.6808985,99.4484062
+862,Paraguay,Villa Hayes,true,Acker,153,-25.0913166,-57.527801
+863,Canada,Richmond,false,Arizona,34,49.2725714,-123.1207968
+864,Belarus,Prawdzinski,false,Everett,85,53.5234017,27.8299056
+865,Pakistan,Barishāl,false,Anniversary,154,36.3163,74.6786
+866,Indonesia,Caloue,true,Sugar,192,5.31494,95.9706
+867,Uzbekistan,Pop,true,Reinke,19,40.8814636,71.1032591
+868,Russia,Pskov,false,Meadow Valley,67,57.8282585,28.2416397
+869,Sudan,Tandaltī,false,Maple Wood,123,13.0142682,31.8733386
+870,New Zealand,Papatowai,true,Forest Run,20,-46.5603901,169.4690405
+871,China,Beixiang,true,Eagle Crest,104,39.9041999,116.4073963
+872,Italy,Genova,true,Southridge,0,44.4421587,8.7866738
+873,China,Changtang,false,Morrow,77,27.1840722,114.9749001
+874,Russia,Kaliningrad,true,Helena,104,54.8151488,20.2520662
+875,Peru,Ilo,true,Hazelcrest,34,-17.6680839,-71.3468091
+876,Indonesia,Kedungkrajan,false,Brentwood,6,-7.504714,112.358062
+877,Indonesia,Bulumulyo,false,Sugar,187,-6.7332152,111.1950767
+878,Poland,Śniadowo,true,Monument,16,53.0382065,21.9907815
+879,Russia,Moshkovo,false,Moland,103,55.3040194,83.6056675
+880,Croatia,Tisno,false,Myrtle,163,43.7974664,15.6421092
+881,Indonesia,Pulosari,false,Spohn,151,-7.158502,109.263397
+882,France,Senlis,false,Northland,65,49.2095093,2.5814197
+883,Brazil,Anápolis,true,Tomscot,0,-16.328546,-48.953403
+884,China,Xikou,true,Sachtjen,168,29.689847,121.28259
+885,Russia,Serebryanyye Prudy,false,Carey,110,54.4691259,38.7201031
+886,Russia,Burla,true,High Crossing,110,53.3347847,78.3407084
+887,Cyprus,Pergamos,true,Florence,31,35.0486587,33.6958809
+888,Canada,Ottawa,false,Calypso,146,45.4518103,-75.738755
+889,United States,Orange,true,West,65,32.4237461,-104.2655282
+890,Indonesia,Sidomulyo,false,Summerview,185,-5.5844754,105.4771084
+891,Finland,Perho,false,Bluestem,54,61.5928356,24.5915028
+892,Kazakhstan,Akkol’,false,Johnson,157,51.9956496,70.9359277
+893,China,Zhongmen,false,Service,16,25.179836,119.08713
+894,Argentina,Catriel,true,Mayfield,45,-34.6893026,-58.5247124
+895,France,Bonneville,true,Prairieview,149,46.2983568,-0.8937702
+896,Armenia,Chochkan,false,Nelson,146,41.1769352,44.8345384
+897,Nicaragua,Granada,true,Marcy,45,11.9344073,-85.9560005
+898,China,Kaoshan,false,Calypso,198,23.5466579,116.5148882
+899,Kosovo,Dubova (Driloni),false,Mesta,75,42.71194,20.36972
+900,United States,Garden Grove,true,Moose,159,33.6952452,-117.7639765
+901,China,Shanyang,false,Jenna,112,33.532172,109.882289
+902,Canada,Cookshire-Eaton,true,Tennyson,163,45.41675,-71.6324
+903,Poland,Puszczykowo,true,Bunker Hill,1,52.2828507,16.8550365
+904,France,Tournon-sur-Rhône,true,Morningstar,36,45.052484,4.8398662
+905,El Salvador,Chirilagua,false,Monument,154,13.2206714,-88.1401188
+906,Armenia,Areni,false,Service,139,39.7230741,45.1858986
+907,Philippines,Carriedo,true,Moose,185,14.6004472,121.030802
+908,Ukraine,Piskivka,true,Tony,3,50.6960614,29.5987334
+909,Japan,Anan,true,Lawn,67,33.8597337,134.6589917
+910,Saudi Arabia,Riyadh,true,Gerald,47,24.7135517,46.6752957
+911,Russia,Bessonovka,true,Golf View,123,53.2770501,45.0300183
+912,Vietnam,Tam Bình,false,Ryan,112,10.0679356,105.9464874
+913,China,Yaosai,false,Trailsway,91,31.9311556,120.3086809
+914,Indonesia,Sangiang,true,Bartillon,147,-5.9536723,105.8495796
+915,Estonia,Põlva,true,Bunker Hill,179,58.0537462,27.0548658
+916,Canada,Mont-Saint-Hilaire,false,Menomonie,168,45.5599168,-73.2004857
+917,China,Maikun,false,Maywood,181,32.905305,101.755566
+918,China,Jianba,true,Thompson,158,34.6040791,119.1782422
+919,Yemen,Az Zāhir,true,3rd,13,13.9625642,45.4674656
+920,Honduras,"Las Vegas, Santa Barbara",false,Erie,92,14.8753647,-88.0729754
+921,Canada,La Ronge,false,Sage,151,55.10013,-105.28422
+922,China,Xujiafang,true,Rigney,82,29.236985,110.66263
+923,Indonesia,Cileueur,true,Rockefeller,37,-6.6274275,106.7529652
+924,Jamaica,Moneague,false,Summer Ridge,148,18.2760947,-77.1168753
+925,Afghanistan,Khadīr,true,Thompson,138,33.8629813,65.7609502
+926,South Africa,Williston,true,Towne,141,-31.3393,20.9033999
+927,Indonesia,Padangan,true,Crest Line,84,-7.1935036,111.6064513
+928,China,Yangxi,false,Leroy,87,21.752396,111.617849
+929,Spain,Girona,false,Magdeline,176,42.2470995,2.0763253
+930,Mexico,San Miguel,false,East,20,19.3579802,-99.0806088
+931,Honduras,Baja Mar,true,Glendale,154,15.8874377,-87.8537478
+932,Syria,Bāniyās,true,Mandrake,31,35.1852624,35.9533322
+933,Russia,Tim,false,Helena,88,55.796264,37.719368
+934,Portugal,Briteiros Santa Leocádia,true,Anderson,64,41.5256088,-8.346058
+935,France,Niort,true,Summit,77,46.1839042,-0.4738335
+936,Ukraine,Koryukivka,true,Cody,101,51.7754831,32.2595792
+937,Portugal,Pereiro,true,4th,16,42.0480121,-8.3359459
+938,Indonesia,Bongsri,false,Roxbury,153,-6.728,111.049
+939,Ireland,Skerries,true,Kenwood,118,53.5834008,-6.1349155
+940,Portugal,Meirinhas,false,Pearson,11,39.8476302,-8.7086605
+941,Russia,Safakulevo,false,Orin,106,54.9897886,62.547128
+942,China,Sixi,true,Sunfield,26,27.720727,118.132068
+943,Canada,Trail,false,Arizona,20,49.0965676,-117.71173
+944,China,Xiadian,false,Blue Bill Park,181,35.621965,118.725698
+945,Indonesia,Bokat,false,Melvin,112,1.0725136,121.499885
+946,Libya,Şurmān,true,Springs,24,32.7473047,12.5642261
+947,China,Hutang,true,Texas,105,32.501495,119.196466
+948,Laos,Xiang Ngeun,false,Summerview,60,19.7600399,102.1832854
+949,Nicaragua,Catarina,true,Westport,22,11.9104731,-86.0758979
+950,Ukraine,Vendychany,false,Colorado,117,48.6184003,27.8023025
+951,China,Guanli,false,Center,39,37.186035,120.701061
+952,China,Guleluke,false,Redwing,78,39.763959,76.982549
+953,Argentina,Aguilares,false,Village,91,-27.4308908,-65.6147813
+954,Japan,Yorii,true,Muir,106,33.426956,130.6436108
+955,Indonesia,Kekeri,false,Golf,134,-8.5575067,116.1270801
+956,Philippines,Santa Lucia,true,Spohn,128,17.1056791,120.4557309
+957,China,Daiyue,false,Stoughton,35,36.187989,117.041581
+958,United States,Baltimore,false,Brentwood,115,39.3096984,-76.6701475
+959,Indonesia,Tembeling,true,Debs,174,1.008763,104.470164
+960,Philippines,Pasacao,false,Loftsgordon,112,13.5038354,123.057164
+961,Ukraine,Kozyatyn,true,Portage,88,49.7149346,28.8363647
+962,Greece,Íos,true,Everett,35,36.7225782,25.2825598
+963,Panama,La Loma,true,Ridge Oak,121,9.315382,-82.157199
+964,South Africa,Sasolburg,true,Redwing,108,-26.2171929,28.327702
+965,China,Aiximan,true,Hansons,162,39.244385,76.499773
+966,Russia,Ol’ginka,false,Chive,48,44.202131,38.8907294
+967,Canada,Notre-Dame-des-Prairies,true,Sutherland,90,46.05007,-73.43245
+968,Portugal,Praia da Barra,true,Bartelt,13,40.638059,-8.7470806
+969,United States,Dallas,true,Meadow Ridge,28,32.6901244,-96.937016
+970,United States,Pinellas Park,true,Old Gate,16,27.8436202,-82.7036033
+971,Sweden,Solna,true,Bluestem,118,59.3544768,18.0283975
+972,United Kingdom,Leeds,false,Scoville,127,53.8145,-1.56285
+973,Russia,Engel’s,false,Sutherland,42,51.4753297,46.1136773
+974,Vietnam,Qui Nhon,true,Sage,14,13.7829673,109.2196634
+975,China,Xiongguan,false,Marquette,29,23.020673,113.751799
+976,Portugal,Guilhabreu,false,Armistice,195,41.2922523,-8.6325611
+977,China,Zigong,false,Monica,160,29.33903,104.778442
+978,Philippines,Batu,true,Talmadge,111,16.4329878,121.1113259
+979,Russia,Nizhnekamsk,false,Northland,74,55.6121118,51.8618714
+980,China,Ganchazi,true,Scott,89,43.24417,127.181168
+981,China,Doujia,false,Cherokee,77,34.2429849,108.9357233
+982,Latvia,Vecpiebalga,true,Ludington,85,57.061272,25.817596
+983,France,Saint-Étienne,true,Golf Course,92,45.4815563,4.3637137
+984,France,Labège,false,Portage,36,42.7981285,1.5693759
+985,Russia,Volosovo,false,Brickson Park,161,59.4430147,29.4885599
+986,China,Chenyangzhai,true,Laurel,72,34.313074,108.715716
+987,Ukraine,Vyzhnytsya,false,Mitchell,176,48.2521582,25.1973796
+988,China,Chengji,true,Commercial,130,30.572815,104.066801
+989,South Sudan,Kajok,false,Quincy,47,8.303998,27.993441
+990,Ukraine,Knyazhichi,true,Hanover,143,50.4553587,30.7716386
+991,Philippines,Nuing,false,Erie,178,13.1424635,123.7244858
+992,Indonesia,Curug,true,Londonderry,177,-6.1869527,106.1698563
+993,Brazil,Pedreira,false,Lakeland,83,-22.7485717,-46.8931368
+994,Uruguay,Rafael Perazza,true,Londonderry,45,-34.5256988,-56.794578
+995,United Kingdom,West End,true,Eastwood,20,53.46464,0.04134
+996,China,Gasi,false,Nevada,105,31.092719,93.812858
+997,Paraguay,Capitán Bado,true,North,169,-23.2585481,-55.541359
+998,Indonesia,Jambubol,false,Twin Pines,149,-5.0898252,105.3241245
+999,Dominican Republic,Villa Francisca,true,Hudson,15,18.4849304,-69.8887766
+1000,Indonesia,Sidaraja,true,Rusk,177,-6.9854642,108.5730321

@@ -29,6 +29,4 @@ public interface SeoulFloatingRepository {
 
     List<SeoulFloating> findSeoulFloatingsByProvince(String province);
 
-
-
 }

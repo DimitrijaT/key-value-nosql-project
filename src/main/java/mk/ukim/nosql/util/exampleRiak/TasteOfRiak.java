@@ -1,4 +1,4 @@
-package mk.ukim.nosql.util;
+package mk.ukim.nosql.util.exampleRiak;
 
 import com.basho.riak.client.api.RiakClient;
 import com.basho.riak.client.api.commands.kv.DeleteValue;
