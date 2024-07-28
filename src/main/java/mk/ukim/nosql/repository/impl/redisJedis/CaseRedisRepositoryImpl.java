@@ -151,11 +151,10 @@ public class CaseRedisRepositoryImpl implements CaseRepository {
 
     @Override
     public List<Case> findCasesByProvinceAndMaximumConfirmedCasesWithLatitudeRangeAndSortedByLongitude(String province, int maxConfirmedCases, double minLatitude, double maxLatitude) {
-//        Query query = new Query("@province:" + province + "* @confirmed:[-inf " +
-//                maxConfirmedCases + "] @latitude:["
-//                + minLatitude + " " + maxLatitude + "]");
-
-        Query query = new Query("@province: " + province + "*");
+        Query query = new Query("@province:" + province + "* @confirmed:[-inf " +
+                maxConfirmedCases + "] @latitude:["
+                + minLatitude + " " + maxLatitude + "]");
+//        Query query = new Query("@province: " + province + "*");
 //        Query query = new Query("@latitude:[" + minLatitude + " " + maxLatitude + "]");
         SearchResult sr = jedis.ftSearch("case", query.setSortBy("longitude", false));
         List<Case> cases = new ArrayList<>();
