@@ -37,4 +37,6 @@ public interface CaseRepository {
 
     public void close();
 
+    String getDbName();
+
 }

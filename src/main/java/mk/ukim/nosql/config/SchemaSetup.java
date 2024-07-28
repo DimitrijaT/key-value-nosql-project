@@ -2,7 +2,6 @@ package mk.ukim.nosql.config;
 
 import com.basho.riak.client.api.RiakClient;
 import com.basho.riak.client.api.commands.search.StoreIndex;
-import com.basho.riak.client.core.RiakCluster;
 import com.basho.riak.client.core.query.search.YokozunaIndex;
 import redis.clients.jedis.UnifiedJedis;
 import redis.clients.jedis.search.IndexOptions;
@@ -21,7 +20,6 @@ public class SchemaSetup {
         }
 
         Schema schema = new Schema()
-//                .addField(new Schema.Field("id", Schema.FieldType.NUMERIC))
                 .addTextField("id", 1.0)
                 .addSortableTextField("province", 1.0)
                 .addSortableTextField("city", 1.0)
@@ -44,7 +42,7 @@ public class SchemaSetup {
     // Then run these commands in the terminal:
     //              - riak-admin bucket-type create covidDataset '{"props":{"search_index":"casesIndex"}}'
     //              - riak-admin bucket-type activate covidDataset
-    public static void setRiakIndex(RiakClient client, RiakCluster cluster) {
+    public static void setRiakIndex(RiakClient client) {
         try {
             YokozunaIndex index = new YokozunaIndex("casesIndex", "_yz_default");
             StoreIndex storeIndex = new StoreIndex.Builder(index).build();
@@ -53,7 +51,7 @@ public class SchemaSetup {
             throw new RuntimeException(e);
         }
 
-
+        System.out.println("Riak index created");
 
         // === Delete index (No necessary, rerunning the program doesn't cause any problems)
 
@@ -61,6 +59,5 @@ public class SchemaSetup {
         //YzDeleteIndexOperation deleteOp = new YzDeleteIndexOperation.Builder(index)
         //        .build();
         //cluster.execute(deleteOp);
-
     }
 }

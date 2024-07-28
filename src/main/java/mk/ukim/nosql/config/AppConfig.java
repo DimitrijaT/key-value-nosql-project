@@ -47,7 +47,7 @@ public class AppConfig {
 
                 Gson gson = new Gson();
 
-                SchemaSetup.setRiakIndex(client,cluster);
+                SchemaSetup.setRiakIndex(client);
 
                 caseRepository = new CaseRiakRepositoryImpl(client, cluster, gson);
             } catch (UnknownHostException e) {

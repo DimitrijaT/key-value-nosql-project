@@ -170,6 +170,11 @@ public class CaseRedisRepositoryImpl implements CaseRepository {
         jedis.close();
     }
 
+    @Override
+    public String getDbName() {
+        return "redis-jedis";
+    }
+
 
     /**
      *      assertEquals(1, client.ftSearch(index, new Query("@category:{red}")).getTotalResults());

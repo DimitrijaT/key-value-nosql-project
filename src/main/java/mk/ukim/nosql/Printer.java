@@ -10,6 +10,8 @@ public class Printer {
     private static final String CSV_FILE_PATH = "src/main/resources/PerformanceMetrics.csv";
 
     public static void logPerformance(String dbType, HashMap<String, Long> performance, int Size, String entityName) {
+
+        System.out.println("Performance metrics for " + entityName + " with size " + Size + " in " + dbType + " database:");
         // add header if empty
         if (!new File(CSV_FILE_PATH).exists() || new File(CSV_FILE_PATH).length() <= 10) {
             addHeader(performance);

@@ -32,4 +32,7 @@ public interface CaseService {
 
 
     List<Case> findCasesByProvince(String province);
+
+    String getDbName();
+
 }

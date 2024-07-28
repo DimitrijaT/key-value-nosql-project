@@ -11,15 +11,21 @@ import java.util.List;
 public class Main {
 
 
-    public static void serviceOperations(CaseService caseService, List<Case> cases, String dbType, String entityName) {
+    public static void serviceOperations(CaseService caseService, List<Case> cases, String entityName, boolean saveCsv) {
         HashMap<String, Long> performance = new HashMap<>();
 
         long startTime;
 
         // Save all cases
-        startTime = System.currentTimeMillis();
-//        caseService.saveCaseList(cases);
-        performance.put("writeAllDataTime", System.currentTimeMillis() - startTime);
+        if (saveCsv) {
+            startTime = System.currentTimeMillis();
+            caseService.saveCaseList(cases);
+            performance.put("writeAllDataTime", System.currentTimeMillis() - startTime);
+            System.out.println(performance.get("writeAllDataTime"));
+            return;
+        } else {
+            performance.put("writeAllDataTime", 0L);
+        }
 
         // Delete case
         startTime = System.currentTimeMillis();
@@ -81,7 +87,7 @@ public class Main {
         caseService.close();
         performance.put("closeTime", System.currentTimeMillis() - startTime);
 
-        Printer.logPerformance(dbType, performance, cases.size(), entityName);
+        Printer.logPerformance(caseService.getDbName(), performance, cases.size(), entityName);
     }
 
     public static void main(String[] args) {
@@ -89,10 +95,17 @@ public class Main {
 //         Additionally change these in etc/riak/riak.conf file:
 //              - storage_backend = leveldb
 //              - search = on
-//         CaseService riakService = AppConfig.getCaseService("riak");
+
         final CaseService redisService = AppConfig.getCaseService("redis-jedis");
         final CaseService riakService = AppConfig.getCaseService("riak");
 
+//        System.out.println(riakService.getDbName());
+
+        System.out.println("-------------------------------------------------");
+        System.out.println("START");
+        System.out.println("-------------------------------------------------");
+
+        System.out.println("Reading data from CSV files");
 
         List<Case> cases = CSVReaderUtil.readCSV("src/main/resources/archive/Case.csv");
         List<Case> mock1000 = CSVReaderUtil.readCSV("src/main/resources/mockData/Mock1000.csv");
@@ -101,12 +114,11 @@ public class Main {
 //        cases.addAll(mock1000);
 //        cases.addAll(mock10000);
 
-        serviceOperations(redisService, cases, "redis-jedis", "CASE");
-//        serviceOperations(redisService, mock1000, "redis-jedis", "MOCK1000");
-//        serviceOperations(redisService, mock10000, "redis-jedis", "MOCK10000");
+        // If saveCsv is true, it will save all cases to the database but not perform any other operations
+        serviceOperations(riakService, cases, "RIAK10000_LEVELDB", false);
 
-        serviceOperations(riakService, cases, "riak", "CASE");
-//        serviceOperations(riakService, mock1000, "riak", "MOCK1000");
-//        serviceOperations(riakService, mock10000, "riak", "MOCK10000");
+        System.out.println("-------------------------------------------------");
+        System.out.println("END");
+
     }
 }

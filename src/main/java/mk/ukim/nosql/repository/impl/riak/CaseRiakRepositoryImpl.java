@@ -143,6 +143,11 @@ public class CaseRiakRepositoryImpl implements CaseRepository {
         client.shutdown();
     }
 
+    @Override
+    public String getDbName() {
+        return "riak";
+    }
+
 
     private List<Case> extractCasesFromSearchOperation(SearchOperation searchOp) throws ExecutionException, InterruptedException {
         SearchOperation.Response results = searchOp.get();

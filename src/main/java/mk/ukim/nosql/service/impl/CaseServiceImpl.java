@@ -111,5 +111,10 @@ public class CaseServiceImpl implements CaseService {
         }
     }
 
+    @Override
+    public String getDbName() {
+        return caseRepository.getDbName();
+    }
+
 
 }
